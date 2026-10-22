@@ -1,0 +1,9 @@
+export type Ingredient={name:string;quantity:number;unit:string};export type Recipe={id:string;name:string;type:string;time:number;kcal:number;protein:number;ingredients:Ingredient[];emoji:string};
+export const recipes:Recipe[]=[
+{id:'r1',name:'Enchiladas verdes con pollo',type:'Comida',time:35,kcal:540,protein:42,emoji:'🌮',ingredients:[{name:'Pechuga de pollo',quantity:180,unit:'g'},{name:'Tortilla de maíz',quantity:4,unit:'pza'},{name:'Tomatillo',quantity:150,unit:'g'},{name:'Queso fresco',quantity:35,unit:'g'}]},
+{id:'r2',name:'Huevos a la mexicana',type:'Desayuno',time:15,kcal:420,protein:29,emoji:'🍳',ingredients:[{name:'Huevo',quantity:3,unit:'pza'},{name:'Jitomate',quantity:100,unit:'g'},{name:'Tortilla de maíz',quantity:3,unit:'pza'}]},
+{id:'r3',name:'Bowl de pollo con arroz',type:'Comida',time:25,kcal:610,protein:51,emoji:'🥗',ingredients:[{name:'Pechuga de pollo',quantity:200,unit:'g'},{name:'Arroz',quantity:100,unit:'g'},{name:'Brócoli',quantity:130,unit:'g'}]},
+{id:'r4',name:'Tacos de bistec con nopales',type:'Cena',time:25,kcal:490,protein:40,emoji:'🌯',ingredients:[{name:'Bistec de res',quantity:170,unit:'g'},{name:'Tortilla de maíz',quantity:4,unit:'pza'},{name:'Nopal',quantity:120,unit:'g'}]},
+{id:'r5',name:'Yogur con avena y fruta',type:'Desayuno',time:5,kcal:390,protein:27,emoji:'🥣',ingredients:[{name:'Yogur griego natural',quantity:250,unit:'g'},{name:'Avena',quantity:60,unit:'g'},{name:'Plátano',quantity:1,unit:'pza'}]},
+{id:'r6',name:'Picadillo casero con verduras',type:'Comida',time:35,kcal:580,protein:38,emoji:'🍲',ingredients:[{name:'Carne molida de res',quantity:180,unit:'g'},{name:'Papa',quantity:160,unit:'g'},{name:'Zanahoria',quantity:90,unit:'g'}]}];
+export const stores=['Walmart','Chedraui','Soriana','Costco','Sam’s Club'];export const days=['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'];
