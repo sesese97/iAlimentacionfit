@@ -38,3 +38,6 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .pf-macro-progress{display:flex;height:9px;gap:3px;overflow:hidden;border-radius:9px;background:#3A4B65;margin-top:16px}.pf-macro-progress span{min-width:0;display:block}.pf-macro-progress .protein{background:var(--pf-orange)}.pf-macro-progress .carbs{background:var(--pf-cobalt)}.pf-macro-progress .fat{background:var(--pf-gold)}
 .pf-plan-heading{margin:24px 0 0}.pf-plan-heading h2{margin:0;font-size:18px}.pf-plan-heading p{color:var(--pf-muted);font-size:12px;line-height:1.6;margin:8px 0}
 @media(max-width:620px){.metrics>div{padding:15px}.topbar{height:76px}.mainnav button.current{border-bottom-width:3px}.pf-macro-legend{gap:10px;font-size:10px}}
+
+/* Fase 3 · planificación personalizada */
+.plan-buttons{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.plan-warnings{border:1px solid #F3D3C4;background:#FFF5EF;border-radius:15px;padding:12px 18px;margin:0 0 18px;color:#80503C;font-size:12px;line-height:1.6}.plan-warnings p{margin:5px 0}.plan-buttons .outline:first-child{border-color:#FF6B3D;color:#B94A2C}.plan-buttons .outline:first-child:hover{background:#FFF0E9}@media(max-width:620px){.plan-buttons{justify-content:flex-start}.plan-buttons .outline{font-size:11px;padding:10px}}
