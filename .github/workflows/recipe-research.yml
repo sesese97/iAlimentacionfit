@@ -27,5 +27,6 @@ jobs:
           git add data/recipe-candidates-200.json
           if ! git diff --cached --quiet; then
             git commit -m "Catalogar 200 recetas candidatas identificadas en TheMealDB"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
