@@ -1,7 +1,9 @@
 import {NextRequest,NextResponse} from 'next/server';
 export const dynamic='force-dynamic';
 export async function GET(req:NextRequest){
- const q=(req.nextUrl.searchParams.get('q')||'').trim().slice(0,80);
+ const original=(req.nextUrl.searchParams.get('q')||'').trim().slice(0,80);
+ const dictionary:Record<string,string>={pollo:'chicken',salmón:'salmon',salmon:'salmon',pescado:'fish',pasta:'pasta',pizza:'pizza',tacos:'tacos',arroz:'rice',curry:'curry',ensalada:'salad',sopa:'soup',res:'beef',carne:'beef',cerdo:'pork',camarón:'shrimp',camaron:'shrimp',huevo:'egg',huevos:'egg',vegetariano:'vegetarian',verduras:'vegetable',pavo:'turkey',atún:'tuna',atun:'tuna'};
+ const q=dictionary[original.toLowerCase()]||original;
  const area=(req.nextUrl.searchParams.get('area')||'').trim().slice(0,40);
  const category=(req.nextUrl.searchParams.get('category')||'').trim().slice(0,40);
  let path=q?'search.php?s='+encodeURIComponent(q):area?'filter.php?a='+encodeURIComponent(area):category?'filter.php?c='+encodeURIComponent(category):'search.php?f=a';
