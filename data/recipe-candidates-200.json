@@ -5,9 +5,9 @@
   "status": "200 candidatas identificadas, pendientes de curaduría manual, nutrición, licencia y adaptación",
   "total": 200,
   "distribution": {
-    "Mexicana y latinoamericana": 16,
+    "Mexicana y latinoamericana": 3,
+    "Americana y comfort food": 40,
     "Italiana, mediterránea y española": 56,
-    "Americana y comfort food": 27,
     "India, china, japonesa y tailandesa": 35,
     "Mariscos y pescados": 22,
     "Vegetariana y vegana": 22,
@@ -35,7 +35,7 @@
       "id": "mdb-52940",
       "sourceId": "52940",
       "name": "Brown Stew Chicken",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Chicken",
       "source": "TheMealDB",
@@ -46,13 +46,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-52939",
       "sourceId": "52939",
       "name": "Callaloo Jamaican Style",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Miscellaneous",
       "source": "TheMealDB",
@@ -63,7 +63,7 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-52765",
@@ -86,7 +86,7 @@
       "id": "mdb-53350",
       "sourceId": "53350",
       "name": "Corned Beef and Cabbage – Jamaican Style",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Beef",
       "source": "TheMealDB",
@@ -97,7 +97,7 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-52830",
@@ -120,7 +120,7 @@
       "id": "mdb-52938",
       "sourceId": "52938",
       "name": "Jamaican Beef Patties",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Beef",
       "source": "TheMealDB",
@@ -131,13 +131,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-53353",
       "sourceId": "53353",
       "name": "Jamaican Boiled Dumplings",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Side",
       "source": "TheMealDB",
@@ -148,13 +148,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-53345",
       "sourceId": "53345",
       "name": "Jamaican Curry Chicken Recipe",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Chicken",
       "source": "TheMealDB",
@@ -165,13 +165,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-53354",
       "sourceId": "53354",
       "name": "Jamaican Curry Goat",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Goat",
       "source": "TheMealDB",
@@ -182,13 +182,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-53355",
       "sourceId": "53355",
       "name": "Jamaican Festival (Sweet Dumpling)",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Side",
       "source": "TheMealDB",
@@ -199,13 +199,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-53364",
       "sourceId": "53364",
       "name": "Jamaican Steamed Cabbage",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Side",
       "source": "TheMealDB",
@@ -216,13 +216,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-52937",
       "sourceId": "52937",
       "name": "Jerk chicken with rice & peas",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Chicken",
       "source": "TheMealDB",
@@ -233,13 +233,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-52943",
       "sourceId": "52943",
       "name": "Oxtail with broad beans",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Beef",
       "source": "TheMealDB",
@@ -250,13 +250,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-52941",
       "sourceId": "52941",
       "name": "Red Peas Soup",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Beef",
       "source": "TheMealDB",
@@ -267,13 +267,13 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-53356",
       "sourceId": "53356",
       "name": "Jamaican Fried Dumplings",
-      "group": "Mexicana y latinoamericana",
+      "group": "Americana y comfort food",
       "originalArea": "Jamaican",
       "originalCategory": "Side",
       "source": "TheMealDB",
@@ -284,7 +284,7 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
+      "editorialNotes": "Cocina caribeña jamaicana; clasificada provisionalmente con comfort food internacional. Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar."
     },
     {
       "id": "mdb-53262",
@@ -3414,5 +3414,6 @@
       "fat": null,
       "editorialNotes": "Revisar ingredientes, porción, perfil saludable y licencia antes de aprobar"
     }
-  ]
+  ],
+  "editorialCaveat": "La distribución refleja disponibilidad de candidatos en la fuente y no las cuotas finales de 1200. Cocina jamaicana no se presenta como latinoamericana."
 }
