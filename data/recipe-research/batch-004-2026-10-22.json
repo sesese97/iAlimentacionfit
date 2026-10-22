@@ -36,7 +36,7 @@
       "web-163",
       "web-166"
     ],
-    "metadataReviewCount": 36,
+    "metadataReviewCount": 34,
     "metadataReviewIds": [
       "web-158",
       "web-159",
@@ -47,7 +47,6 @@
       "web-166",
       "web-167",
       "web-168",
-      "web-170",
       "web-171",
       "web-172",
       "web-173",
@@ -72,8 +71,7 @@
       "web-199",
       "web-200",
       "web-201",
-      "web-203",
-      "web-204"
+      "web-203"
     ],
     "needsNutritionNormalization": 50,
     "needsRightsReview": 50,
@@ -1376,16 +1374,18 @@
       "mealType": "comida / cena",
       "source": {
         "name": "The Mediterranean Dish",
-        "author": "Suzy Karadsheh",
+        "author": "Abigail Chipley",
         "url": "https://www.themediterraneandish.com/middle-eastern-quinoa-stuffed-peppers/",
         "accessedOn": "2026-10-22",
-        "pageReviewed": true
+        "pageReviewed": true,
+        "reviewedBy": "Suzy Karadsheh"
       },
       "mainIngredients": [
         "pimientos",
         "quinoa",
         "lenteja",
-        "tahini"
+        "tahini",
+        "yogur natural"
       ],
       "nutritionPerServing": {
         "caloriesKcal": 256.8,
@@ -1399,18 +1399,18 @@
         "scopeNote": "Comprobar aderezo en tabla"
       },
       "serving": {
-        "recipeYieldServings": null,
-        "description": "Porción publicada, raciones pendientes",
+        "recipeYieldServings": 8,
+        "description": "8 porciones tipo guarnición; la fuente declara 4–6 porciones si es plato principal (normalizar antes de integrar)",
         "normalizedServingGrams": null
       },
       "timing": {
-        "prepMinutesPublished": null,
-        "totalMinutesPublished": null
+        "prepMinutesPublished": 20,
+        "totalMinutesPublished": 60
       },
       "verifiedDietaryTags": [
         {
-          "tag": "vegana",
-          "evidence": "ingredientes fuente, marcas por confirmar"
+          "tag": "vegetariana",
+          "evidence": "Salsa de tahini y yogur lácteo publicada en la receta original; versión documentada no vegana."
         }
       ],
       "allergySuitability": {
@@ -1435,8 +1435,7 @@
       "pending": {
         "recipeSpecific": [
           "Comprobar aderezo en tabla",
-          "Rendimiento pendiente",
-          "Tiempo de preparación pendiente"
+          "Contiene yogur de leche: quitar etiqueta vegana. La versión vegana sugerida por la fuente usa otra salsa y necesita nutrición independiente."
         ],
         "quantities": "Normalizar gramos, marcas, pesos crudo/cocido, merma",
         "instructions": "Elaborar receta propia o solicitar permiso",
@@ -4230,8 +4229,8 @@
     {
       "id": "web-204",
       "batchId": "batch-004-2026-10-22",
-      "nameOriginal": "No Bake Greek Yogurt Cheesecake",
-      "nameEs": "Cheesecake frío de yogur griego",
+      "nameOriginal": "No Bake Cheesecake Cups",
+      "nameEs": "Vasitos de cheesecake frío con yogur griego y fresas",
       "cuisine": "Estadounidense",
       "editorialGroup": "Desayunos, snacks y postres",
       "mealType": "desayuno / snack / postre",
@@ -4243,10 +4242,14 @@
         "pageReviewed": true
       },
       "mainIngredients": [
-        "yogur griego",
         "queso crema",
-        "galleta",
-        "fruta"
+        "yogur griego natural",
+        "galletas Graham",
+        "aceite de coco",
+        "azúcar morena",
+        "miel",
+        "limón",
+        "fresas"
       ],
       "nutritionPerServing": {
         "caloriesKcal": 279,
@@ -4261,12 +4264,13 @@
       },
       "serving": {
         "recipeYieldServings": 8,
-        "description": "1/8 de receta",
+        "description": "1 de 8 vasitos. La fuente marca erróneamente 'Serving: 1 g'; no utilizar 1g como tamaño de ración.",
         "normalizedServingGrams": null
       },
       "timing": {
-        "prepMinutesPublished": null,
-        "totalMinutesPublished": null
+        "prepMinutesPublished": 10,
+        "totalMinutesPublished": 20,
+        "chillMinutesPublished": 180
       },
       "verifiedDietaryTags": [
         {
@@ -4296,7 +4300,7 @@
       "pending": {
         "recipeSpecific": [
           "Medida serving de fuente ambigua",
-          "Tiempo de preparación pendiente"
+          "La ficha declara 20 minutos de tiempo total, pero exige 3 horas de refrigeración: mostrar tiempo transcurrido real aparte del tiempo activo."
         ],
         "quantities": "Normalizar gramos, marcas, pesos crudo/cocido, merma",
         "instructions": "Elaborar receta propia o solicitar permiso",
