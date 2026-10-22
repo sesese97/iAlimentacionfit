@@ -50,7 +50,7 @@ Hay 404 registros documentales en estos archivos, con distintos grados de revisi
 
 - Macronutrientes no publicados: `web-163` (carbohidratos) y `web-166` (grasa total).
 - Alcance de la tabla/porción y posibles discrepancias: `web-169`, `web-175`, `web-180`, `web-184`, `web-186`, `web-194`, `web-204`.
-- Faltan metadatos de preparación o rendimiento para 36 referencias; **las 50** requieren pruebas culinarias, normalización nutricional con insumos mexicanos y derechos de uso antes de aprobarse.
+- Faltan metadatos de preparación o rendimiento para 34 referencias; **las 50** requieren pruebas culinarias, normalización nutricional con insumos mexicanos y derechos de uso antes de aprobarse.
 
 ## Reglas para ampliar el banco
 
