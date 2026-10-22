@@ -1,0 +1,31 @@
+name: Research 200 recipe candidates
+on:
+  push:
+    paths:
+      - 'scripts/collect_recipe_candidates.py'
+      - '.github/workflows/recipe-research.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Identify and deduplicate source-backed candidates
+        run: python scripts/collect_recipe_candidates.py
+      - name: Save identified candidates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/recipe-candidates-200.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Catalogar 200 recetas candidatas identificadas en TheMealDB"
+            git push
+          fi
