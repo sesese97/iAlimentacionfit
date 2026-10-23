@@ -32,3 +32,12 @@ export function mealTarget(total:MacroTarget,weight:number):MacroTarget{
  return {kcal:Math.round(total.kcal*weight),protein:Math.round(total.protein*weight),carbs:Math.round(total.carbs*weight),fat:Math.round(total.fat*weight)};
 }
 export const fourMealWeights=[.25,.35,.25,.15];
+
+/** Auditoría de coherencia: 4/4/9 es aproximado, puede diferir por fibra,
+ * polialcoholes, redondeos y método de etiquetado. No corrige la fuente. */
+export function auditEnergy(r:CatalogRecipe):{estimatedFromMacros:number;reported:number;difference:number;flagged:boolean}|null{
+ if(r.nutritionMethod==='unavailable'||[r.kcal,r.protein,r.carbs,r.fat].some(v=>typeof v!=='number'||!Number.isFinite(v)))return null;
+ const estimatedFromMacros=Math.round(r.protein*4+(r.carbs as number)*4+(r.fat as number)*9);
+ const difference=estimatedFromMacros-r.kcal;
+ return {estimatedFromMacros,reported:r.kcal,difference,flagged:Math.abs(difference)>Math.max(35,r.kcal*.15)};
+}
