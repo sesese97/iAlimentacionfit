@@ -6,6 +6,7 @@ import batch002 from '../data/recipe-research/batch-002-2026-10-22.json';
 import batch003 from '../data/recipe-research/batch-003-2026-10-22.json';
 import batch004 from '../data/recipe-research/batch-004-2026-10-22.json';
 import batch005 from '../data/recipe-research/batch-005-2026-10-22.json';
+import batch006 from '../data/recipe-research/batch-006-2026-10-22.json';
 export type CatalogRecipe=Recipe&{
  carbs?:number;fat?:number;sourceUrl?:string;sourceName?:string;
  status?:'pilot'|'reference';imageUrl?:string;
@@ -19,7 +20,7 @@ const mealFor=(group:string,name:string):Meal=>{
  return 'comida';
 };
 type ResearchRecipe={id:string;nameEs:string;editorialGroup:string;mealType?:string;source:{name:string;url:string};mainIngredients?:string[];nutritionPerServing?:{caloriesKcal?:number|null;proteinG?:number|null;carbohydratesG?:number|null;fatG?:number|null};serving?:{description?:string}};
-const research=[...batch002.recipes,...batch003.recipes,...batch004.recipes,...batch005.recipes] as ResearchRecipe[];
+const research=[...batch002.recipes,...batch003.recipes,...batch004.recipes,...batch005.recipes,...batch006.recipes] as ResearchRecipe[];
 const researchRefs:CatalogRecipe[]=research.map(r=>{
  const n=r.nutritionPerServing;
  const kcal=typeof n?.caloriesKcal==='number'?n.caloriesKcal:undefined;
