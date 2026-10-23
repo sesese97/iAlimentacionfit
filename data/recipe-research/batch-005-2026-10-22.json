@@ -1,0 +1,5025 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "batch-005-2026-10-22",
+  "project": "MealFit MX",
+  "researchDate": "2026-10-22",
+  "baselineAudit": [
+    {
+      "path": "lib/reviewed-recipes.ts",
+      "sha": "038c8ab6bedcee0667a9f4432f43996db87c2bd3"
+    },
+    {
+      "path": "data/recipe-candidates-200.json",
+      "sha": "3f97a4fb905884adca77baf6d1bc453d0f9323b9"
+    },
+    {
+      "path": "data/recipe-research/batch-002-2026-10-22.json",
+      "sha": "1ae92571ecbb53e7b49829e1889bfd76de6c1560"
+    },
+    {
+      "path": "data/recipe-research/batch-003-2026-10-22.json",
+      "sha": "b071590cd3cf3b162c1ebf1e48bb823c6d17153d"
+    },
+    {
+      "path": "data/recipe-research/batch-004-2026-10-22.json",
+      "sha": "5a1cd6c8cba525b53667c38297389d8208426b9c"
+    }
+  ],
+  "methodology": {
+    "discovery": "Búsquedas web temáticas y lectura de fichas gastronómicas de múltiples fuentes.",
+    "deduplication": "Comparación de URL normalizada y nombre original con 404 registros documentales anteriores.",
+    "nutrition": "Valores transcritos de tablas originales, no estimados ni recalculados por MealFit MX",
+    "tagThreshold": "Alta proteína al menos 25g proteína por porción y al menos 20% de kcal proteicas; alto carbohidrato al menos 60g por porción.",
+    "licensing": "Solo nombres, datos fácticos y notas originales, nunca recetas completas ni fotografías ajenas.",
+    "status": "Revisada implica referencia editorial inspeccionada, no receta aprobada o apta para el planificador."
+  },
+  "stats": {
+    "newRecipes": 50,
+    "publishedAllFourMacros": 50,
+    "unpublishedOrMissingMacros": 0,
+    "sourceCount": 19,
+    "byEditorialGroup": {
+      "Mexicana y latinoamericana": 10,
+      "Italiana, mediterránea y española": 9,
+      "Americana y comfort food saludable": 7,
+      "India, china, japonesa y tailandesa": 9,
+      "Mariscos y pescados": 5,
+      "Vegetariana y vegana": 5,
+      "Desayunos, snacks y postres": 5
+    },
+    "bySource": {
+      "Mexico in My Kitchen": 7,
+      "Isabel Eats": 1,
+      "My Colombian Recipes": 2,
+      "Dominican Cooking": 1,
+      "The Mediterranean Dish": 4,
+      "Spain on a Fork": 1,
+      "Recipe Runner": 3,
+      "Feel Good Foodie": 5,
+      "Well Plated": 5,
+      "The Real Food Dietitians": 2,
+      "Just One Cookbook": 3,
+      "Piping Pot Curry": 2,
+      "The Woks of Life": 1,
+      "Ministry of Curry": 2,
+      "Rasa Malaysia": 1,
+      "Skinnytaste": 5,
+      "Rainbow Plant Life": 3,
+      "Cooking for Peanuts": 1,
+      "Eating Bird Food": 1
+    },
+    "highProteinTagCount": 16,
+    "requiresTimeOrYieldReviewCount": 34,
+    "requiresTimeOrYieldReviewIds": [
+      "web-211",
+      "web-213",
+      "web-215",
+      "web-216",
+      "web-217",
+      "web-218",
+      "web-219",
+      "web-220",
+      "web-224",
+      "web-225",
+      "web-226",
+      "web-227",
+      "web-228",
+      "web-229",
+      "web-230",
+      "web-231",
+      "web-232",
+      "web-233",
+      "web-234",
+      "web-235",
+      "web-236",
+      "web-237",
+      "web-238",
+      "web-239",
+      "web-242",
+      "web-243",
+      "web-244",
+      "web-245",
+      "web-246",
+      "web-247",
+      "web-248",
+      "web-252",
+      "web-253",
+      "web-254"
+    ],
+    "nutritionScopePriorityReviewIds": [
+      "web-205",
+      "web-206",
+      "web-207",
+      "web-210",
+      "web-212",
+      "web-219",
+      "web-226",
+      "web-232",
+      "web-240",
+      "web-244",
+      "web-250",
+      "web-252",
+      "web-254"
+    ],
+    "rightsReviewCount": 50,
+    "nutritionNormalizationCount": 50,
+    "approvedForPlanner": 0
+  },
+  "recipes": [
+    {
+      "id": "web-205",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Empalmes Recipe",
+      "nameEs": "Empalmes norteños con chorizo, frijoles y huevo",
+      "cuisine": "Mexicana norteña",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "desayuno / snack / postre",
+      "source": {
+        "name": "Mexico in My Kitchen",
+        "author": "Adrián Herrera (chef invitado)",
+        "url": "https://www.mexicoinmykitchen.com/empalmes-recipe/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "tortillas nixtamalizadas",
+        "frijoles bayos",
+        "chorizo",
+        "huevo",
+        "chile piquín",
+        "aceite"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 465,
+        "proteinG": 12,
+        "carbohydratesG": 44,
+        "fatG": 27,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mexicoinmykitchen.com/empalmes-recipe/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 empalme",
+        "scopeNote": "Porción 1 empalme; receta de chef invitado Adrián Herrera, tabla de fuente 465 kcal",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 empalme",
+        "recipeYieldServings": 2,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 10,
+        "totalMinutesPublished": 30,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Tortilla y frijol de México; definir chorizo norteño y merma de grasa"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Porción 1 empalme; receta de chef invitado Adrián Herrera, tabla de fuente 465 kcal"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Porción 1 empalme; receta de chef invitado Adrián Herrera, tabla de fuente 465 kcal",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-206",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Chilaquiles Verdes with Chicken",
+      "nameEs": "Chilaquiles verdes con pollo, crema y queso",
+      "cuisine": "Mexicana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Mexico in My Kitchen",
+        "author": "Mely Martínez",
+        "url": "https://www.mexicoinmykitchen.com/chilaquiles-verdes-with-chicken/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "tortilla de maíz",
+        "pollo deshebrado",
+        "tomatillo",
+        "serrano",
+        "crema",
+        "queso"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 585,
+        "proteinG": 27,
+        "carbohydratesG": 44,
+        "fatG": 34,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mexicoinmykitchen.com/chilaquiles-verdes-with-chicken/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "aprox. 6 oz",
+        "scopeNote": "Ficha indica porción 6 oz; calificar fritura y toppings",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "aprox. 6 oz",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 10,
+        "totalMinutesPublished": 35,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Totopo horneado como nueva versión exige recálculo de aceite absorbido"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Ficha indica porción 6 oz; calificar fritura y toppings"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Ficha indica porción 6 oz; calificar fritura y toppings",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-207",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Molletes Recipe",
+      "nameEs": "Molletes mexicanos de frijol y quesillo",
+      "cuisine": "Mexicana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "desayuno / snack / postre",
+      "source": {
+        "name": "Mexico in My Kitchen",
+        "author": "Mely Martínez",
+        "url": "https://www.mexicoinmykitchen.com/mexican-molletes-recipe/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "bolillo",
+        "frijoles refritos",
+        "queso Oaxaca",
+        "mantequilla",
+        "pico de gallo"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 595,
+        "proteinG": 26,
+        "carbohydratesG": 36,
+        "fatG": 39,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mexicoinmykitchen.com/mexican-molletes-recipe/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "2 molletes",
+        "scopeNote": "Porción de dos molletes sin chorizo",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "2 molletes",
+        "recipeYieldServings": 2,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 5,
+        "totalMinutesPublished": 15,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Bolillo y quesillo mexicanos; fijar preparación de frijoles"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Porción de dos molletes sin chorizo"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Porción de dos molletes sin chorizo",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-208",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Mexican Ropa Vieja",
+      "nameEs": "Ropa vieja mexicana de res deshebrada y papa",
+      "cuisine": "Mexicana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Mexico in My Kitchen",
+        "author": "Mely Martínez",
+        "url": "https://www.mexicoinmykitchen.com/mexican-ropa-vieja-old-clothes/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "res deshebrada",
+        "papa",
+        "jitomate",
+        "cebolla",
+        "jalapeño",
+        "orégano"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 290,
+        "proteinG": 27,
+        "carbohydratesG": 17,
+        "fatG": 13,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mexicoinmykitchen.com/mexican-ropa-vieja-old-clothes/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/6 del guiso",
+        "scopeNote": "Porción de guiso, no tortillas de acompañamiento",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/6 del guiso",
+        "recipeYieldServings": 6,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 15,
+        "totalMinutesPublished": 65,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "27g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Falda o diezmillo, comprobar merma de res"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Porción de guiso, no tortillas de acompañamiento"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Porción de guiso, no tortillas de acompañamiento"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-209",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Steaks in Green Sauce",
+      "nameEs": "Bisteces de res con salsa verde y calabacita",
+      "cuisine": "Mexicana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Mexico in My Kitchen",
+        "author": "Mely Martínez",
+        "url": "https://www.mexicoinmykitchen.com/steaks-in-green-sauce/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "bistec",
+        "tomatillo",
+        "serrano",
+        "calabacita",
+        "cilantro",
+        "cebolla"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 226,
+        "proteinG": 26,
+        "carbohydratesG": 7,
+        "fatG": 10,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mexicoinmykitchen.com/steaks-in-green-sauce/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 taza",
+        "scopeNote": "Macros por taza del guiso; sin tortillas",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 taza",
+        "recipeYieldServings": 6,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 15,
+        "totalMinutesPublished": 35,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "26g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Res para bistec nacional, definir porcentaje de grasa"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros por taza del guiso; sin tortillas"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros por taza del guiso; sin tortillas"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-210",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Mexican Beef Stew with Red Wine",
+      "nameEs": "Cachete de res al vino tinto y tomillo",
+      "cuisine": "Mexicana contemporánea",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Mexico in My Kitchen",
+        "author": "Mely Martínez",
+        "url": "https://www.mexicoinmykitchen.com/red-wine-beef-stew/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "cachete de res",
+        "vino tinto",
+        "cebolla",
+        "caldo",
+        "harina",
+        "tomillo"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 438,
+        "proteinG": 50,
+        "carbohydratesG": 11,
+        "fatG": 15,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mexicoinmykitchen.com/red-wine-beef-stew/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "6 oz",
+        "scopeNote": "Fuente declara seis onzas, confirmar preparación y alcohol remanente",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "6 oz",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 10,
+        "totalMinutesPublished": 50,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "50g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Cachete nacional; sustitución de vino requiere receta nueva"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 2,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Fuente declara seis onzas, confirmar preparación y alcohol remanente"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Fuente declara seis onzas, confirmar preparación y alcohol remanente",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-211",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Esquites Recipe",
+      "nameEs": "Esquites de elote con epazote, crema y cotija",
+      "cuisine": "Mexicana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "antojito / guarnición",
+      "source": {
+        "name": "Mexico in My Kitchen",
+        "author": "Mely Martínez",
+        "url": "https://www.mexicoinmykitchen.com/esquites-recipe-mexican-street-food/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "elote",
+        "epazote",
+        "mantequilla",
+        "crema",
+        "cotija",
+        "limón"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 277,
+        "proteinG": 9,
+        "carbohydratesG": 24,
+        "fatG": 18,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mexicoinmykitchen.com/esquites-recipe-mexican-street-food/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 vaso",
+        "scopeNote": "Un vaso; crema y mayonesa cambian grasa",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 vaso",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 20,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Elote blanco y queso Cotija mexicanos"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Un vaso; crema y mayonesa cambian grasa"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Un vaso; crema y mayonesa cambian grasa",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-212",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Birria Tacos",
+      "nameEs": "Tacos de birria de res con consomé y queso",
+      "cuisine": "Mexicana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Isabel Eats",
+        "author": "Isabel Orozco-Moore",
+        "url": "https://www.isabeleats.com/birria-tacos/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "res",
+        "chiles secos",
+        "especias",
+        "tortilla",
+        "queso",
+        "consomé"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 839,
+        "proteinG": 68,
+        "carbohydratesG": 46,
+        "fatG": 45,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.isabeleats.com/birria-tacos/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/8 de la receta",
+        "scopeNote": "Una de ocho raciones, precisar número de tacos",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/8 de la receta",
+        "recipeYieldServings": 8,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 15,
+        "totalMinutesPublished": 275,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "68g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Chambarete/diezmillo y quesillo; aceite del consomé por medir"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 2,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una de ocho raciones, precisar número de tacos"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una de ocho raciones, precisar número de tacos",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-213",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Arroz con Chorizo y Camarones",
+      "nameEs": "Arroz colombiano con chorizo, camarones y achiote",
+      "cuisine": "Colombiana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "My Colombian Recipes",
+        "author": "Erica Dinho",
+        "url": "https://www.mycolombianrecipes.com/rice-with-chorizo-and-shrimparroz-con-chorizo-y-camarones/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "arroz",
+        "chorizo colombiano",
+        "camarón",
+        "jitomate",
+        "achiote",
+        "cilantro"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 603,
+        "proteinG": 21,
+        "carbohydratesG": 88,
+        "fatG": 17,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mycolombianrecipes.com/rice-with-chorizo-and-shrimparroz-con-chorizo-y-camarones/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/4 de cazuela",
+        "scopeNote": "Cuarta parte de cazuela, controlar sodio",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/4 de cazuela",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_en_carbohidratos",
+          "basis": "88g carbohidratos publicados por ración"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Chorizo colombiano escaso, variante con chorizo mexicano requiere recalcular"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Cuarta parte de cazuela, controlar sodio"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Cuarta parte de cazuela, controlar sodio",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-214",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Puré de Yautía Blanca",
+      "nameEs": "Puré dominicano de malanga blanca y cebolla",
+      "cuisine": "Dominicana",
+      "editorialGroup": "Mexicana y latinoamericana",
+      "mealType": "antojito / guarnición",
+      "source": {
+        "name": "Dominican Cooking",
+        "author": "Clara González",
+        "url": "https://www.dominicancooking.com/pure-yautia-mashed-malanga",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "malanga blanca",
+        "leche",
+        "mantequilla",
+        "ajo",
+        "cebolla"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 218,
+        "proteinG": 3,
+        "carbohydratesG": 32,
+        "fatG": 9,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.dominicancooking.com/pure-yautia-mashed-malanga",
+        "sourceSection": "Nutrition",
+        "appliesTo": "3/4 taza",
+        "scopeNote": "Guarnición de tres cuartos de taza; no es plato proteico",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "3/4 taza",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 15,
+        "totalMinutesPublished": 35,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Malanga de mercado mexicano; no equiparar automáticamente al taro"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 4,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Guarnición de tres cuartos de taza; no es plato proteico"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Guarnición de tres cuartos de taza; no es plato proteico"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-215",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Egyptian Moussaka",
+      "nameEs": "Musaca egipcia de berenjena, pimiento y carne",
+      "cuisine": "Egipcia",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "The Mediterranean Dish",
+        "author": "Suzy Karadsheh",
+        "url": "https://www.themediterraneandish.com/egyptian-moussaka/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "berenjena",
+        "res molida",
+        "jitomate",
+        "pimiento",
+        "piñones"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 111.1,
+        "proteinG": 9.4,
+        "carbohydratesG": 10.4,
+        "fatG": 4.1,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.themediterraneandish.com/egyptian-moussaka/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Macros de porción relativamente pequeña, excluye pita",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Berenjena y res mexicanos, pepita en versión propia opcional"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros de porción relativamente pequeña, excluye pita"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros de porción relativamente pequeña, excluye pita",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-216",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Greek Moussaka",
+      "nameEs": "Musaca griega con berenjena, carne y bechamel",
+      "cuisine": "Griega",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "The Mediterranean Dish",
+        "author": "Suzy Karadsheh",
+        "url": "https://www.themediterraneandish.com/moussaka-recipe-eggplant-casserole/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "berenjena",
+        "carne molida",
+        "leche",
+        "huevo",
+        "queso",
+        "canela"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 309.9,
+        "proteinG": 12.3,
+        "carbohydratesG": 19.4,
+        "fatG": 20,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.themediterraneandish.com/moussaka-recipe-eggplant-casserole/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Bechamel diferencia esta receta de musaca egipcia",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Res o cordero nacional según precio, controlar grasa"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 2,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Bechamel diferencia esta receta de musaca egipcia"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Bechamel diferencia esta receta de musaca egipcia",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-217",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Spanakopita-Style Baked Mac and Cheese",
+      "nameEs": "Macarrones al horno estilo spanakopita con espinaca y feta",
+      "cuisine": "Griega / italiana fusión",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "The Mediterranean Dish",
+        "author": "Suzy Karadsheh",
+        "url": "https://www.themediterraneandish.com/spanakopita-baked-mac-and-cheese/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "macarrones",
+        "espinaca",
+        "feta",
+        "mozzarella",
+        "pan molido",
+        "cebolla"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 370.7,
+        "proteinG": 15.6,
+        "carbohydratesG": 36.7,
+        "fatG": 18.2,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.themediterraneandish.com/spanakopita-baked-mac-and-cheese/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/12 molde",
+        "scopeNote": "Una de doce piezas; verificar cuajo antes de vegetariana estricta",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/12 molde",
+        "recipeYieldServings": 12,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Feta y pasta de marca nacional"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una de doce piezas; verificar cuajo antes de vegetariana estricta"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una de doce piezas; verificar cuajo antes de vegetariana estricta",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-218",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Potaje de Garbanzos con Panecillos",
+      "nameEs": "Potaje español de garbanzos con panecillos de ajo",
+      "cuisine": "Española",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Spain on a Fork",
+        "author": "Albert Bevia",
+        "url": "https://spainonafork.com/spains-best-kept-chickpea-stew-potaje-de-garbanzos-con-panecillos/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "garbanzo",
+        "pan",
+        "huevo",
+        "ajo",
+        "pimentón",
+        "aceite oliva"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 558,
+        "proteinG": 19,
+        "carbohydratesG": 61,
+        "fatG": 28,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://spainonafork.com/spains-best-kept-chickpea-stew-potaje-de-garbanzos-con-panecillos/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Incluye panecillos, no es bajo en calorías",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 40,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_en_carbohidratos",
+          "basis": "61g carbohidratos publicados por ración"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Garbanzo nacional y pimentón; medir aceite de fritura"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Incluye panecillos, no es bajo en calorías"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Incluye panecillos, no es bajo en calorías",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-219",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Gnocchi with Asparagus and Chicken",
+      "nameEs": "Ñoquis cremosos de pollo, espárragos y chícharos",
+      "cuisine": "Italiana contemporánea",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Recipe Runner",
+        "author": "Danae Halliday",
+        "url": "https://reciperunner.com/gnocchi-with-asparagus/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "gnocchi",
+        "pollo",
+        "espárrago",
+        "chícharos",
+        "crema",
+        "limón"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 467,
+        "proteinG": 34,
+        "carbohydratesG": 58,
+        "fatG": 11,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://reciperunner.com/gnocchi-with-asparagus/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "ficha indica erróneamente 1 g",
+        "scopeNote": "La ficha marca Serving 1g, dato incoherente: pendiente normalizar",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "ficha indica erróneamente 1 g",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "34g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Ñoquis importados o caseros, espárragos mexicanos"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "La ficha marca Serving 1g, dato incoherente: pendiente normalizar"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "La ficha marca Serving 1g, dato incoherente: pendiente normalizar",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-220",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Spinach White Bean Gnocchi Skillet",
+      "nameEs": "Ñoquis dorados con alubias, espinaca y pesto",
+      "cuisine": "Italiana contemporánea",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Recipe Runner",
+        "author": "Danae Halliday",
+        "url": "https://reciperunner.com/spinach-white-bean-gnocchi-skillet/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "gnocchi",
+        "alubias",
+        "espinaca",
+        "tomate seco",
+        "pesto",
+        "mozzarella"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 437,
+        "proteinG": 20,
+        "carbohydratesG": 69,
+        "fatG": 9,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://reciperunner.com/spinach-white-bean-gnocchi-skillet/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Confirmar cuajo de mozzarella y pesto antes de dieta vegetariana",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 30,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_en_carbohidratos",
+          "basis": "69g carbohidratos publicados por ración"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Alubias blancas y pesto nacionales según marca"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Confirmar cuajo de mozzarella y pesto antes de dieta vegetariana"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Confirmar cuajo de mozzarella y pesto antes de dieta vegetariana",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-221",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Pasta Pomodoro",
+      "nameEs": "Espagueti pomodoro con albahaca y jitomate",
+      "cuisine": "Italiana",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Feel Good Foodie",
+        "author": "Yumna Jawad",
+        "url": "https://feelgoodfoodie.net/recipe/pasta-pomodoro/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "espagueti",
+        "jitomate",
+        "ajo",
+        "albahaca",
+        "aceite de oliva"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 268,
+        "proteinG": 9,
+        "carbohydratesG": 48,
+        "fatG": 5,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://feelgoodfoodie.net/recipe/pasta-pomodoro/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1.5 tazas",
+        "scopeNote": "Tabla por taza y media con salsa, parmesano aparte",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1.5 tazas",
+        "recipeYieldServings": 8,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 15,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Jitomate saladette o bola según textura"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 4,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Tabla por taza y media con salsa, parmesano aparte"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Tabla por taza y media con salsa, parmesano aparte"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-222",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Mediterranean Chicken",
+      "nameEs": "Pollo mediterráneo con aceitunas y jitomate seco",
+      "cuisine": "Mediterránea",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Feel Good Foodie",
+        "author": "Yumna Jawad",
+        "url": "https://feelgoodfoodie.net/recipe/mediterranean-chicken/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pollo",
+        "aceitunas",
+        "jitomate seco",
+        "ajo",
+        "caldo",
+        "limón"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 330,
+        "proteinG": 39,
+        "carbohydratesG": 10,
+        "fatG": 15,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://feelgoodfoodie.net/recipe/mediterranean-chicken/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "6 oz",
+        "scopeNote": "Porción de 6 oz sin guarnición",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "6 oz",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 10,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "39g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Aceituna kalamata importada, alternativa negra necesita prueba"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Porción de 6 oz sin guarnición"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Porción de 6 oz sin guarnición"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-223",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Greek Pasta Salad",
+      "nameEs": "Ensalada griega de fusilli, pepino, aceitunas y feta",
+      "cuisine": "Griega",
+      "editorialGroup": "Italiana, mediterránea y española",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Feel Good Foodie",
+        "author": "Yumna Jawad",
+        "url": "https://feelgoodfoodie.net/recipe/greek-pasta-salad/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "fusilli",
+        "jitomate",
+        "pepino",
+        "aceitunas",
+        "feta",
+        "vinagre"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 308,
+        "proteinG": 7,
+        "carbohydratesG": 27,
+        "fatG": 19,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://feelgoodfoodie.net/recipe/greek-pasta-salad/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "12 oz",
+        "scopeNote": "Doce onzas por ración; no etiquetar vegetariana estricta por cuajo no verificado",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "12 oz",
+        "recipeYieldServings": 8,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 20,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Fusilli nacional, feta marca determinada"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 4,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Doce onzas por ración; no etiquetar vegetariana estricta por cuajo no verificado"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Doce onzas por ración; no etiquetar vegetariana estricta por cuajo no verificado"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-224",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Cottage Cheese Pizza",
+      "nameEs": "Pizza personal de cottage, pesto, pollo y mozzarella",
+      "cuisine": "Estadounidense comfort",
+      "editorialGroup": "Americana y comfort food saludable",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Well Plated",
+        "author": "Erin Clarke",
+        "url": "https://www.wellplated.com/cottage-cheese-pizza/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "cottage",
+        "huevo",
+        "harina",
+        "pollo",
+        "pesto",
+        "mozzarella"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 526,
+        "proteinG": 51,
+        "carbohydratesG": 31,
+        "fatG": 21,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.wellplated.com/cottage-cheese-pizza/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "pizza individual entera",
+        "scopeNote": "Macros para pizza personal completa, no rebanada",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "pizza individual entera",
+        "recipeYieldServings": 1,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 30,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "51g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Cottage mexicano y pesto casero probado"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros para pizza personal completa, no rebanada"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros para pizza personal completa, no rebanada",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-225",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Buffalo Chicken Pizza",
+      "nameEs": "Pizza buffalo de pollo, queso azul y cebollín",
+      "cuisine": "Estadounidense comfort",
+      "editorialGroup": "Americana y comfort food saludable",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Well Plated",
+        "author": "Erin Clarke",
+        "url": "https://www.wellplated.com/buffalo-chicken-pizza/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "masa pizza",
+        "pollo",
+        "salsa buffalo",
+        "queso azul",
+        "mozzarella",
+        "cebollín"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 155,
+        "proteinG": 11,
+        "carbohydratesG": 15,
+        "fatG": 6,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.wellplated.com/buffalo-chicken-pizza/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/12 pizza",
+        "scopeNote": "Por REBANADA 1/12; preparar masa agrega unos 45 min",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/12 pizza",
+        "recipeYieldServings": 12,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 35,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Salsa buffalo local, mozzarella y harina de pizza"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Por REBANADA 1/12; preparar masa agrega unos 45 min"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Por REBANADA 1/12; preparar masa agrega unos 45 min",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-226",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Broccoli Pizza Crust",
+      "nameEs": "Base de pizza de brócoli, huevo y queso",
+      "cuisine": "Estadounidense comfort",
+      "editorialGroup": "Americana y comfort food saludable",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Well Plated",
+        "author": "Erin Clarke",
+        "url": "https://www.wellplated.com/broccoli-pizza-crust/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "brócoli",
+        "huevo",
+        "parmesano",
+        "mozzarella",
+        "levadura nutricional"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 203,
+        "proteinG": 16,
+        "carbohydratesG": 12,
+        "fatG": 9,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.wellplated.com/broccoli-pizza-crust/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "media base sin toppings",
+        "scopeNote": "Macros por MEDIA BASE SIN TOPPINGS: no contar como pizza completa",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "media base sin toppings",
+        "recipeYieldServings": 2,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 60,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Brócoli nacional y mozzarella baja humedad"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 4,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros por MEDIA BASE SIN TOPPINGS: no contar como pizza completa"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros por MEDIA BASE SIN TOPPINGS: no contar como pizza completa",
+          "Tiempo de preparación por cotejar",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-227",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Green Chicken Enchilada Casserole",
+      "nameEs": "Cazuela de enchiladas verdes con pollo y frijoles",
+      "cuisine": "Tex-Mex comfort",
+      "editorialGroup": "Americana y comfort food saludable",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "The Real Food Dietitians",
+        "author": "Jessica Beacom",
+        "url": "https://therealfooddietitians.com/green-chicken-enchilada-casserole/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pollo",
+        "tortillas",
+        "salsa verde",
+        "frijoles",
+        "queso",
+        "yogur"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 390,
+        "proteinG": 28,
+        "carbohydratesG": 33,
+        "fatG": 16,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://therealfooddietitians.com/green-chicken-enchilada-casserole/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "aprox. 1 taza",
+        "scopeNote": "Una octava parte, aproximadamente taza; sin toppings opcionales",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "aprox. 1 taza",
+        "recipeYieldServings": 8,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "28g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Tomatillo, tortillas y queso mexicanos, documentar marcas"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una octava parte, aproximadamente taza; sin toppings opcionales"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una octava parte, aproximadamente taza; sin toppings opcionales",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-228",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Creamy Buffalo Chicken Casserole",
+      "nameEs": "Cazuela buffalo cremosa de pollo y verduras",
+      "cuisine": "Estadounidense comfort",
+      "editorialGroup": "Americana y comfort food saludable",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "The Real Food Dietitians",
+        "author": "Stacie Hassing",
+        "url": "https://therealfooddietitians.com/creamy-buffalo-chicken-casserole/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pollo",
+        "salsa buffalo",
+        "mayonesa",
+        "huevo",
+        "verduras"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 325,
+        "proteinG": 21,
+        "carbohydratesG": 8,
+        "fatG": 23,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://therealfooddietitians.com/creamy-buffalo-chicken-casserole/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/8 cazuela",
+        "scopeNote": "Un octavo, salsa ranch adicional no incluida",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/8 cazuela",
+        "recipeYieldServings": 8,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Mayonesa y salsa picante mexicanas con sodio medido"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Un octavo, salsa ranch adicional no incluida"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Un octavo, salsa ranch adicional no incluida",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-229",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Turkey Meatloaf",
+      "nameEs": "Pastel de carne de pavo con champiñones y jitomate",
+      "cuisine": "Estadounidense comfort",
+      "editorialGroup": "Americana y comfort food saludable",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Well Plated",
+        "author": "Erin Clarke",
+        "url": "https://www.wellplated.com/turkey-meatloaf/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pavo molido",
+        "huevo",
+        "champiñones",
+        "avena",
+        "cebolla",
+        "ketchup"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 365,
+        "proteinG": 34,
+        "carbohydratesG": 19,
+        "fatG": 17,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.wellplated.com/turkey-meatloaf/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/6 pastel",
+        "scopeNote": "Macros por sexto aunque fuente propone 6–8 porciones, cortar según peso",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/6 pastel",
+        "recipeYieldServings": 6,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 90,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "34g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Pavo molido por pedido; cambiar a res requiere recalcular"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros por sexto aunque fuente propone 6–8 porciones, cortar según peso"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros por sexto aunque fuente propone 6–8 porciones, cortar según peso",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-230",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Teriyaki Turkey Burgers with Grilled Pineapple and Onions",
+      "nameEs": "Hamburguesa teriyaki de pavo con piña asada",
+      "cuisine": "Estadounidense fusión",
+      "editorialGroup": "Americana y comfort food saludable",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Recipe Runner",
+        "author": "Danae Halliday",
+        "url": "https://reciperunner.com/teriyaki-turkey-burgers-grilled-pineapple-onions/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pavo molido",
+        "piña",
+        "cebolla",
+        "pan",
+        "salsa teriyaki",
+        "aguacate"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 636,
+        "proteinG": 46,
+        "carbohydratesG": 71,
+        "fatG": 21,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://reciperunner.com/teriyaki-turkey-burgers-grilled-pineapple-onions/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 hamburguesa",
+        "scopeNote": "Hamburguesa completa con pan y aderezo de aguacate",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 hamburguesa",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "46g proteína y ≥20% de kcal publicadas en proteína"
+        },
+        {
+          "tag": "alta_en_carbohidratos",
+          "basis": "71g carbohidratos publicados por ración"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Piña local, pavo molido de carnicería, soya de marca"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Hamburguesa completa con pan y aderezo de aguacate"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Hamburguesa completa con pan y aderezo de aguacate",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-231",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Cold Miso Soup (Hiyajiru)",
+      "nameEs": "Hiyajiru frío con miso, tofu, salmón y pepino",
+      "cuisine": "Japonesa",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Just One Cookbook",
+        "author": "Namiko Hirasawa Chen",
+        "url": "https://www.justonecookbook.com/cold-miso-soup/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "miso",
+        "tofu",
+        "salmón",
+        "pepino",
+        "dashi",
+        "shiso"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 189,
+        "proteinG": 15,
+        "carbohydratesG": 11,
+        "fatG": 10,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.justonecookbook.com/cold-miso-soup/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "La nutrición del caldo no incluye arroz opcional",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Miso y dashi importados, shiso sin equivalencia directa"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "La nutrición del caldo no incluye arroz opcional"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "La nutrición del caldo no incluye arroz opcional",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-232",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Yakisoba",
+      "nameEs": "Yakisoba salteado de cerdo y verduras",
+      "cuisine": "Japonesa",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Just One Cookbook",
+        "author": "Namiko Hirasawa Chen",
+        "url": "https://www.justonecookbook.com/yakisoba/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "fideos yakisoba",
+        "cerdo",
+        "col",
+        "zanahoria",
+        "salsa yakisoba"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 942,
+        "proteinG": 20,
+        "carbohydratesG": 53,
+        "fatG": 72,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.justonecookbook.com/yakisoba/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Fuente indica 942 kcal,72g grasa; auditar aceite y porción antes de usar",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Fideos auténticos de tienda asiática, no equivalentes a ramen instantáneo"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Fuente indica 942 kcal,72g grasa; auditar aceite y porción antes de usar"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Fuente indica 942 kcal,72g grasa; auditar aceite y porción antes de usar",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-233",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Pork Tofu Soup",
+      "nameEs": "Sopa japonesa de cerdo, tofu y jengibre",
+      "cuisine": "Japonesa",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Just One Cookbook",
+        "author": "Namiko Hirasawa Chen",
+        "url": "https://www.justonecookbook.com/pork-tofu-soup/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "cerdo molido",
+        "tofu",
+        "jengibre",
+        "cebollín",
+        "soya"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 203,
+        "proteinG": 13,
+        "carbohydratesG": 5,
+        "fatG": 14,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.justonecookbook.com/pork-tofu-soup/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "No incluir arroz servido aparte",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Cerdo molido nacional y tofu medio firme"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 4,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "No incluir arroz servido aparte"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "No incluir arroz servido aparte",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-234",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Palak Paneer",
+      "nameEs": "Palak paneer de espinacas cremosas",
+      "cuisine": "India norteña",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Piping Pot Curry",
+        "author": "Meeta Arora",
+        "url": "https://pipingpotcurry.com/palak-paneer-instant-pot/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "paneer",
+        "espinaca",
+        "cebolla",
+        "jengibre",
+        "garam masala",
+        "crema"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 417,
+        "proteinG": 20,
+        "carbohydratesG": 13,
+        "fatG": 32,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://pipingpotcurry.com/palak-paneer-instant-pot/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/4 preparación",
+        "scopeNote": "Una cuarta parte sin naan ni arroz",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/4 preparación",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 20,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegetariana",
+          "basis": "No contiene carne ni pescado en ingredientes documentados, validar marcas"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Paneer importado o elaborado; panela no tiene misma textura"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una cuarta parte sin naan ni arroz"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una cuarta parte sin naan ni arroz",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-235",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Paneer Butter Masala",
+      "nameEs": "Paneer makhani en salsa de tomate y anacardo",
+      "cuisine": "India norteña",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Piping Pot Curry",
+        "author": "Meeta Arora",
+        "url": "https://pipingpotcurry.com/paneer-butter-masala-instant-pot/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "paneer",
+        "jitomate",
+        "crema",
+        "mantequilla",
+        "garam masala",
+        "anacardo"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 374,
+        "proteinG": 14,
+        "carbohydratesG": 17,
+        "fatG": 29,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://pipingpotcurry.com/paneer-butter-masala-instant-pot/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "331 g",
+        "scopeNote": "Ración publicada 331g sin arroz ni naan",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "331 g",
+        "recipeYieldServings": 6,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 30,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegetariana",
+          "basis": "No contiene carne ni pescado en ingredientes documentados, validar marcas"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Paneer casero/tienda asiática; nuez de la India nacional"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Ración publicada 331g sin arroz ni naan"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Ración publicada 331g sin arroz ni naan",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-236",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Beef with Chinese Broccoli",
+      "nameEs": "Res cantonesa con gai lan y salsa de soya",
+      "cuisine": "China cantonesa",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "The Woks of Life",
+        "author": null,
+        "url": "https://thewoksoflife.com/beef-with-chinese-broccoli/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "res en tiras",
+        "gai lan",
+        "ajo",
+        "jengibre",
+        "salsa soya",
+        "salsa ostra"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 264,
+        "proteinG": 17,
+        "carbohydratesG": 16,
+        "fatG": 15,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://thewoksoflife.com/beef-with-chinese-broccoli/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Salsa de ostra contiene mariscos; macros sin arroz",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Gai lan puede ser escaso: brócoli requiere otra versión"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Salsa de ostra contiene mariscos; macros sin arroz"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Salsa de ostra contiene mariscos; macros sin arroz",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-237",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Chicken Dum Biryani",
+      "nameEs": "Biryani de pollo, arroz basmati, azafrán y ghee",
+      "cuisine": "India",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Ministry of Curry",
+        "author": "Archana Mundhe",
+        "url": "https://ministryofcurry.com/chicken-biryani/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pollo",
+        "basmati",
+        "yogur",
+        "cebolla",
+        "ghee",
+        "azafrán",
+        "garam masala"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 601,
+        "proteinG": 31,
+        "carbohydratesG": 69,
+        "fatG": 22,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://ministryofcurry.com/chicken-biryani/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Porción de arroz y pollo; medir peso de huesos si lo hubiera",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "31g proteína y ≥20% de kcal publicadas en proteína"
+        },
+        {
+          "tag": "alta_en_carbohidratos",
+          "basis": "69g carbohidratos publicados por ración"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Basmati, ghee y especias de tiendas especializadas"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 2,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Porción de arroz y pollo; medir peso de huesos si lo hubiera"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Porción de arroz y pollo; medir peso de huesos si lo hubiera",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-238",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Green Curry",
+      "nameEs": "Curry verde tailandés de pollo, coco y bambú",
+      "cuisine": "Tailandesa",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Rasa Malaysia",
+        "author": "Bee Yinn Low",
+        "url": "https://rasamalaysia.com/green-curry/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pollo",
+        "leche de coco",
+        "pasta curry verde",
+        "bambú",
+        "hojas de lima"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 317,
+        "proteinG": 26,
+        "carbohydratesG": 14,
+        "fatG": 18,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://rasamalaysia.com/green-curry/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/3 curry, arroz aparte",
+        "scopeNote": "No incluye arroz de acompañamiento; salsa pescado no vegana",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/3 curry, arroz aparte",
+        "recipeYieldServings": 3,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 20,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "26g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Pasta de curry y bambú importados, verificar etiqueta"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "No incluye arroz de acompañamiento; salsa pescado no vegana"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "No incluye arroz de acompañamiento; salsa pescado no vegana",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-239",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Thai Panang Curry with Chicken",
+      "nameEs": "Curry panang de pollo y cacahuate",
+      "cuisine": "Tailandesa",
+      "editorialGroup": "India, china, japonesa y tailandesa",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Ministry of Curry",
+        "author": "Archana Mundhe",
+        "url": "https://ministryofcurry.com/thai-panang-chicken-curry/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pollo",
+        "leche de coco",
+        "pasta panang",
+        "crema cacahuate",
+        "lima"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 517,
+        "proteinG": 41,
+        "carbohydratesG": 15,
+        "fatG": 34,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://ministryofcurry.com/thai-panang-chicken-curry/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "No incluir arroz jazmín si no está en tabla; sodio elevado",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "41g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Pasta panang importada, cacahuate local"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "No incluir arroz jazmín si no está en tabla; sodio elevado"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "No incluir arroz jazmín si no está en tabla; sodio elevado",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-240",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Camarones en Apuro (Colombian-Style Shrimp with Tomato Sauce)",
+      "nameEs": "Camarones colombianos en salsa de jitomate y limón",
+      "cuisine": "Colombiana costera",
+      "editorialGroup": "Mariscos y pescados",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "My Colombian Recipes",
+        "author": "Erica Dinho",
+        "url": "https://www.mycolombianrecipes.com/camarones-en-apuro-colombian-style-shrimp-with-tomato-sauce/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "camarón crudo",
+        "salsa de jitomate",
+        "aceite de oliva",
+        "pan molido",
+        "limón",
+        "ajo"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 303,
+        "proteinG": 26,
+        "carbohydratesG": 14,
+        "fatG": 16,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.mycolombianrecipes.com/camarones-en-apuro-colombian-style-shrimp-with-tomato-sauce/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/4 receta sin crostini",
+        "scopeNote": "Una de cuatro porciones sin crostini; sodio reportado 1465mg",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/4 receta sin crostini",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 5,
+        "totalMinutesPublished": 15,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "26g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Camarón nacional pelado, panko/pan molido de marca"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una de cuatro porciones sin crostini; sodio reportado 1465mg"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una de cuatro porciones sin crostini; sodio reportado 1465mg",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-241",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Pan Seared Halibut",
+      "nameEs": "Fletán dorado en sartén con ajo y limón",
+      "cuisine": "Mediterránea mariscos",
+      "editorialGroup": "Mariscos y pescados",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Feel Good Foodie",
+        "author": "Yumna Jawad",
+        "url": "https://feelgoodfoodie.net/recipe/pan-seared-halibut/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "fletán",
+        "aceite oliva",
+        "ajo",
+        "limón"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 189,
+        "proteinG": 32,
+        "carbohydratesG": 1,
+        "fatG": 6,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://feelgoodfoodie.net/recipe/pan-seared-halibut/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/4 preparación",
+        "scopeNote": "Una de cuatro porciones sin guarnición",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/4 preparación",
+        "recipeYieldServings": 4,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 5,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "32g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Fletán importado caro; robalo local es versión distinta y exige recálculo"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 4,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una de cuatro porciones sin guarnición"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una de cuatro porciones sin guarnición"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-242",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Tuna Croquettes",
+      "nameEs": "Croquetas de atún con papa al horno",
+      "cuisine": "Estadounidense mariscos",
+      "editorialGroup": "Mariscos y pescados",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Skinnytaste",
+        "author": "Gina Homolka",
+        "url": "https://www.skinnytaste.com/tuna-croquettes/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "atún en lata",
+        "papa",
+        "eneldo",
+        "huevo",
+        "panko",
+        "mostaza"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 215,
+        "proteinG": 22.5,
+        "carbohydratesG": 21.5,
+        "fatG": 3.5,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.skinnytaste.com/tuna-croquettes/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "3 croquetas",
+        "scopeNote": "Porción tres croquetas; sin salsa extra",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "3 croquetas",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 60,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Atún mexicano en lata, controlar líquido y aceite"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Porción tres croquetas; sin salsa extra"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Porción tres croquetas; sin salsa extra",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-243",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Asian Salmon Bowl",
+      "nameEs": "Bowl asiático de salmón con arroz y aguacate",
+      "cuisine": "Japonesa fusión",
+      "editorialGroup": "Mariscos y pescados",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Skinnytaste",
+        "author": "Gina Homolka",
+        "url": "https://www.skinnytaste.com/seattle-asian-salmon-bowl/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "salmón",
+        "arroz integral",
+        "pepino",
+        "aguacate",
+        "wasabi",
+        "soya",
+        "nori"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 395,
+        "proteinG": 27,
+        "carbohydratesG": 31,
+        "fatG": 17,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.skinnytaste.com/seattle-asian-salmon-bowl/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 bowl",
+        "scopeNote": "Macros del bowl con arroz, distinguir salsas",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 bowl",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 20,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "alta_proteina",
+          "basis": "27g proteína y ≥20% de kcal publicadas en proteína"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Salmón congelado, arroz integral local, nori importado"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros del bowl con arroz, distinguir salsas"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros del bowl con arroz, distinguir salsas",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-244",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Bang Bang Shrimp Tacos",
+      "nameEs": "Tacos de camarones bang bang con col y salsa picante",
+      "cuisine": "Estadounidense fusión",
+      "editorialGroup": "Mariscos y pescados",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Well Plated",
+        "author": "Erin Clarke",
+        "url": "https://www.wellplated.com/bang-bang-shrimp-tacos/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "camarón",
+        "col",
+        "sriracha",
+        "mayonesa",
+        "yogur",
+        "tortillas"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 196,
+        "proteinG": 14,
+        "carbohydratesG": 12,
+        "fatG": 10,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.wellplated.com/bang-bang-shrimp-tacos/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1/6 relleno sin tortilla",
+        "scopeNote": "Macros por sexto de RELLENO; EXCLUYEN TORTILLA, por lo que no describe el taco entero",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1/6 relleno sin tortilla",
+        "recipeYieldServings": 6,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 30,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Camarón y tortilla mexicana, sriracha de marca"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros por sexto de RELLENO; EXCLUYEN TORTILLA, por lo que no describe el taco entero"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros por sexto de RELLENO; EXCLUYEN TORTILLA, por lo que no describe el taco entero",
+          "Tiempo de preparación por cotejar",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-245",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Lentil Tacos with Avocado Crema",
+      "nameEs": "Tacos veganos de lentejas, hongos y crema de aguacate",
+      "cuisine": "Tex-Mex vegana",
+      "editorialGroup": "Vegetariana y vegana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Rainbow Plant Life",
+        "author": "Nisha Vora",
+        "url": "https://rainbowplantlife.com/lentil-tacos/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "lenteja",
+        "hongos",
+        "nueces",
+        "tortillas",
+        "aguacate",
+        "col"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 548,
+        "proteinG": 20,
+        "carbohydratesG": 68,
+        "fatG": 25,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://rainbowplantlife.com/lentil-tacos/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "tacos con aderezos",
+        "scopeNote": "Tabla incluye tortillas, crema aguacate y slaw",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "tacos con aderezos",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 25,
+        "totalMinutesPublished": 45,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegana",
+          "basis": "Ingredientes de la versión original, marcas y aditivos aún pendientes"
+        },
+        {
+          "tag": "alta_en_carbohidratos",
+          "basis": "68g carbohidratos publicados por ración"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Lenteja, nuez y aguacate locales"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Tabla incluye tortillas, crema aguacate y slaw"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Tabla incluye tortillas, crema aguacate y slaw",
+          "Número de raciones a cotejar con ficha"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-246",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Mushroom Kale Lasagna Rolls",
+      "nameEs": "Rollitos de lasaña con kale, hongos y ricotta",
+      "cuisine": "Italiana vegetariana",
+      "editorialGroup": "Vegetariana y vegana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Skinnytaste",
+        "author": "Gina Homolka",
+        "url": "https://www.skinnytaste.com/mushroom-kale-lasagna-rolls/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "pasta lasaña",
+        "kale",
+        "hongos",
+        "ricotta",
+        "mozzarella",
+        "salsa marinara"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 258,
+        "proteinG": 11.5,
+        "carbohydratesG": 30.5,
+        "fatG": 8.4,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.skinnytaste.com/mushroom-kale-lasagna-rolls/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "ración de rollitos por revisar",
+        "scopeNote": "Número de rollitos por ración y cuajo del queso pendientes",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "ración de rollitos por revisar",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 70,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Kale y champiñón nacionales; ricotta de marca"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Número de rollitos por ración y cuajo del queso pendientes"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Número de rollitos por ración y cuajo del queso pendientes",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-247",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Vegan Spanakopita",
+      "nameEs": "Spanakopita vegana de espinaca y alubias",
+      "cuisine": "Griega vegana",
+      "editorialGroup": "Vegetariana y vegana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "The Mediterranean Dish",
+        "author": "Joy Manning",
+        "url": "https://www.themediterraneandish.com/skillet-vegan-spanakopita/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "espinaca",
+        "alubias blancas",
+        "masa filo",
+        "limón",
+        "hierbas"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 197.7,
+        "proteinG": 5.5,
+        "carbohydratesG": 33.4,
+        "fatG": 4.5,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.themediterraneandish.com/skillet-vegan-spanakopita/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "Porción fuente pendiente de rendimiento y gramaje",
+        "scopeNote": "Pastel salado sin lácteos, controlar contenido de masa",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "Ración de fuente sin medida normalizada",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegana",
+          "basis": "Ingredientes de la versión original, marcas y aditivos aún pendientes"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Espinaca congelada y alubias mexicanas; revisar aditivos masa filo"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Pastel salado sin lácteos, controlar contenido de masa"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Pastel salado sin lácteos, controlar contenido de masa",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-248",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Easy 6-Ingredient Lentil Burgers",
+      "nameEs": "Hamburguesas veganas de lenteja roja y especias",
+      "cuisine": "Vegana internacional",
+      "editorialGroup": "Vegetariana y vegana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Cooking for Peanuts",
+        "author": "Nisha Melvani",
+        "url": "https://cookingforpeanuts.com/easy-6-ingredient-lentil-burgers/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "lenteja roja",
+        "cebolla",
+        "harina",
+        "especias",
+        "hierbas"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 317,
+        "proteinG": 18,
+        "carbohydratesG": 45,
+        "fatG": 8,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://cookingforpeanuts.com/easy-6-ingredient-lentil-burgers/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "hamburguesa sin pan",
+        "scopeNote": "Macros de tortitas sin pan; remojo 2 horas fuera del tiempo activo",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "hamburguesa sin pan",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": 120
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegana",
+          "basis": "Ingredientes de la versión original, marcas y aditivos aún pendientes"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Lenteja roja importada, harina nacional"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Macros de tortitas sin pan; remojo 2 horas fuera del tiempo activo"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Macros de tortitas sin pan; remojo 2 horas fuera del tiempo activo",
+          "Número de raciones a cotejar con ficha",
+          "Tiempo de preparación por cotejar"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-249",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Vegetarian Mushroom Ceviche",
+      "nameEs": "Ceviche vegetal de champiñón, limón y cilantro",
+      "cuisine": "Latinoamericana vegana",
+      "editorialGroup": "Vegetariana y vegana",
+      "mealType": "comida / cena",
+      "source": {
+        "name": "Skinnytaste",
+        "author": "Gina Homolka",
+        "url": "https://www.skinnytaste.com/mushroom-ceviche/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "champiñón",
+        "cebolla morada",
+        "limón",
+        "cilantro",
+        "pimiento"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 90,
+        "proteinG": 3,
+        "carbohydratesG": 11,
+        "fatG": 5,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.skinnytaste.com/mushroom-ceviche/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 taza",
+        "scopeNote": "Una taza, marinado 3h, no incluye tostadas",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 taza",
+        "recipeYieldServings": 3,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 15,
+        "totalMinutesPublished": 195,
+        "waitMinutesPublished": 180
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegana",
+          "basis": "Ingredientes de la versión original, marcas y aditivos aún pendientes"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Champiñón y limones mexicanos"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una taza, marinado 3h, no incluye tostadas"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una taza, marinado 3h, no incluye tostadas"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-250",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Pumpkin Waffles",
+      "nameEs": "Waffles de calabaza y avena con cottage",
+      "cuisine": "Estadounidense",
+      "editorialGroup": "Desayunos, snacks y postres",
+      "mealType": "desayuno / snack / postre",
+      "source": {
+        "name": "Skinnytaste",
+        "author": "Gina Homolka",
+        "url": "https://www.skinnytaste.com/pumpkin-waffles/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "puré calabaza",
+        "avena",
+        "cottage",
+        "huevo",
+        "canela"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 175,
+        "proteinG": 9,
+        "carbohydratesG": 29,
+        "fatG": 4.5,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.skinnytaste.com/pumpkin-waffles/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "2 piezas pequeñas, fuente dice pancakes",
+        "scopeNote": "Ficha dice Serving: 2 small pancakes aunque son waffles, verificar porción",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "2 piezas pequeñas, fuente dice pancakes",
+        "recipeYieldServings": 5,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 10,
+        "totalMinutesPublished": 40,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Calabaza de Castilla cocida, medir humedad"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Ficha dice Serving: 2 small pancakes aunque son waffles, verificar porción"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Ficha dice Serving: 2 small pancakes aunque son waffles, verificar porción",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-251",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Chocolate Protein Pancakes",
+      "nameEs": "Hotcakes de chocolate, avena y proteína",
+      "cuisine": "Estadounidense",
+      "editorialGroup": "Desayunos, snacks y postres",
+      "mealType": "desayuno / snack / postre",
+      "source": {
+        "name": "Feel Good Foodie",
+        "author": "Yumna Jawad",
+        "url": "https://feelgoodfoodie.net/recipe/chocolate-protein-pancakes/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "avena",
+        "proteína en polvo",
+        "plátano",
+        "cacao",
+        "huevo",
+        "leche"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 346,
+        "proteinG": 17,
+        "carbohydratesG": 55,
+        "fatG": 9,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://feelgoodfoodie.net/recipe/chocolate-protein-pancakes/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "2 hotcakes",
+        "scopeNote": "Dos hotcakes por ración sin maple ni toppings",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "2 hotcakes",
+        "recipeYieldServings": 3,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 10,
+        "totalMinutesPublished": null,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Avena, plátano, cacao mexicanos, proteína especificar marca"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 5,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Dos hotcakes por ración sin maple ni toppings"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Dos hotcakes por ración sin maple ni toppings"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-252",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Oatmeal Raisin Protein Bars",
+      "nameEs": "Barras de avena, pasas y proteína de vainilla",
+      "cuisine": "Estadounidense",
+      "editorialGroup": "Desayunos, snacks y postres",
+      "mealType": "desayuno / snack / postre",
+      "source": {
+        "name": "Eating Bird Food",
+        "author": "Brittany Mullins",
+        "url": "https://www.eatingbirdfood.com/oatmeal-raisin-protein-bars/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "avena",
+        "pasas",
+        "harina almendra",
+        "proteína vainilla",
+        "chía",
+        "huevo"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 194,
+        "proteinG": 12,
+        "carbohydratesG": 26,
+        "fatG": 6,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://www.eatingbirdfood.com/oatmeal-raisin-protein-bars/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 barra",
+        "scopeNote": "Una de doce barras; titular fuente dice >14g pero tabla marca 12g, usar tabla",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 barra",
+        "recipeYieldServings": 12,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": null,
+        "totalMinutesPublished": 35,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Avena/pasas locales, proteína de marca mexicana"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 4,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una de doce barras; titular fuente dice >14g pero tabla marca 12g, usar tabla"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una de doce barras; titular fuente dice >14g pero tabla marca 12g, usar tabla",
+          "Tiempo de preparación por cotejar",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-253",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "Chewy Vegan Chai-Spiced Cookies",
+      "nameEs": "Galletas veganas masala chai de avena y almendra",
+      "cuisine": "Vegana de inspiración india",
+      "editorialGroup": "Desayunos, snacks y postres",
+      "mealType": "desayuno / snack / postre",
+      "source": {
+        "name": "Rainbow Plant Life",
+        "author": "Nisha Vora",
+        "url": "https://rainbowplantlife.com/chewy-vegan-chai-spiced-cookies/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "avena",
+        "crema almendra",
+        "cardamomo",
+        "canela",
+        "jengibre",
+        "clavo"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 137,
+        "proteinG": 4,
+        "carbohydratesG": 14,
+        "fatG": 8,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://rainbowplantlife.com/chewy-vegan-chai-spiced-cookies/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 galleta",
+        "scopeNote": "Una galleta; no cumple proteína alta",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 galleta",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 30,
+        "totalMinutesPublished": 55,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegana",
+          "basis": "Ingredientes de la versión original, marcas y aditivos aún pendientes"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Cardamomo y crema almendra nacionales o importación"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 3,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Una galleta; no cumple proteína alta"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Una galleta; no cumple proteína alta",
+          "Número de raciones a cotejar con ficha"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    },
+    {
+      "id": "web-254",
+      "batchId": "batch-005-2026-10-22",
+      "nameOriginal": "No-Bake Vegan Peanut Butter and Jelly Bars",
+      "nameEs": "Barras veganas sin horno de cacahuate y frambuesa",
+      "cuisine": "Vegana estadounidense",
+      "editorialGroup": "Desayunos, snacks y postres",
+      "mealType": "desayuno / snack / postre",
+      "source": {
+        "name": "Rainbow Plant Life",
+        "author": "Nisha Vora",
+        "url": "https://rainbowplantlife.com/no-bake-vegan-peanut-butter-and-jelly-bars/",
+        "accessedOn": "2026-10-22",
+        "pageReviewed": true,
+        "sectionsReviewed": [
+          "nombre",
+          "ingredientes principales",
+          "tabla de nutrición"
+        ],
+        "contentCopied": false
+      },
+      "mainIngredients": [
+        "cacahuate",
+        "avena",
+        "dátiles",
+        "frambuesa",
+        "chía"
+      ],
+      "nutritionPerServing": {
+        "caloriesKcal": 158,
+        "proteinG": 4,
+        "carbohydratesG": 26,
+        "fatG": 5,
+        "status": "publicada_completa",
+        "publicationVerified": true,
+        "independentlyRecalculated": false,
+        "sourceUrl": "https://rainbowplantlife.com/no-bake-vegan-peanut-butter-and-jelly-bars/",
+        "sourceSection": "Nutrition",
+        "appliesTo": "1 barra",
+        "scopeNote": "Porción una barra; enfriado 30 min, gramaje de corte por definir",
+        "caveat": "Cifras originales estimadas por autores; no aplican automáticamente a versión mexicana."
+      },
+      "serving": {
+        "description": "1 barra",
+        "recipeYieldServings": null,
+        "normalizedServingGrams": null
+      },
+      "timing": {
+        "prepMinutesPublished": 20,
+        "totalMinutesPublished": 50,
+        "waitMinutesPublished": null
+      },
+      "verifiedDietaryTags": [
+        {
+          "tag": "vegana",
+          "basis": "Ingredientes de la versión original, marcas y aditivos aún pendientes"
+        }
+      ],
+      "allergySuitability": {
+        "glutenFreeVerified": false,
+        "allergenFreeVerified": false,
+        "claims": []
+      },
+      "mexicoAdaptation": {
+        "proposals": [
+          "Cacahuate y avena local, frambuesa en conserva o congelada"
+        ],
+        "tested": false,
+        "retailerAvailabilityVerified": false,
+        "pricesVerified": false,
+        "nutritionRecalculationRequired": true
+      },
+      "editorialAssessment": {
+        "culinaryAppealScore": 5,
+        "easeScore": 4,
+        "scale": 5,
+        "assessmentType": "documental, no cocinada ni degustada",
+        "rationale": "Porción una barra; enfriado 30 min, gramaje de corte por definir"
+      },
+      "status": "revisada",
+      "readyForPlanner": false,
+      "pending": {
+        "recipeSpecific": [
+          "Porción una barra; enfriado 30 min, gramaje de corte por definir",
+          "Número de raciones a cotejar con ficha",
+          "Auditoría prioritaria de alcance nutricional y tamaño de porción"
+        ],
+        "ingredientQuantities": "Normalizar gramos, crudo/cocido, merma y marcas; sin copia literal de cantidades ajenas.",
+        "instructions": "Redactar y probar receta propia o contar con permiso específico.",
+        "nutrition": "Recalcular macros con porción real y productos del mercado mexicano.",
+        "rights": "Comprobar permisos de contenido textual y fotografía.",
+        "photos": "Ninguna fotografía de tercero copiada; producir propia o adquirir licencia."
+      },
+      "rights": {
+        "permissionVerified": false,
+        "license": null,
+        "instructionsCopied": false,
+        "photoCopied": false
+      }
+    }
+  ]
+}
