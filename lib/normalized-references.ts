@@ -61,5 +61,47 @@ export const normalizedReferences:Record<string,NormalizedReference>={
   ],
   conversionNotes:['3 tazas de pollo cocido se estiman en 420 g para 6 porciones; el peso puede variar por deshebrado.','3 tazas de jitomate se aproximan a 540 g; cebolla y chipotle se convierten a gramos aproximados.','La porción de la fuente es 4 oz de tinga, no incluye tostadas ni guarniciones.'],
   preparation:['Sofríe cebolla y ajo con el aceite hasta suavizar.','Incorpora jitomate y perejil; cocina hasta que el jitomate suelte sus jugos.','Agrega pollo deshebrado y chipotle; cocina a fuego bajo hasta integrar los sabores.','Sirve como guiso; tortillas y acompañamientos deben registrarse por separado.']
- }
+ },
+
+ 'web-042':{
+  sourceUrl:'https://www.skinnytaste.com/cod-fish-tacos/',yieldServings:4,quantityStatus:'source_converted',
+  ingredients:[
+   {name:'Filete de pescado blanco sin piel',quantity:113.4,unit:'g'},
+   {name:'Comino molido',quantity:.25,unit:'g'},
+   {name:'Sal',quantity:1,unit:'g'},
+   {name:'Chile con limón tipo Tajín',quantity:.45,unit:'g'},
+   {name:'Yogur griego natural sin grasa',quantity:15,unit:'g'},
+   {name:'Mayonesa ligera',quantity:11.25,unit:'g'},
+   {name:'Jugo de limón',quantity:7.5,unit:'ml'},
+   {name:'Chile con limón tipo Tajín',quantity:.45,unit:'g'},
+   {name:'Cilantro',quantity:4,unit:'g'},
+   {name:'Col blanca',quantity:17.5,unit:'g'},
+   {name:'Col morada',quantity:17.5,unit:'g'},
+   {name:'Zanahoria',quantity:7.5,unit:'g'},
+   {name:'Aceite de oliva',quantity:3.4,unit:'g'},
+   {name:'Jugo de limón',quantity:3.75,unit:'ml'},
+   {name:'Tortilla de maíz',quantity:2,unit:'pza'},
+   {name:'Limón',quantity:.25,unit:'pza'}
+  ],
+  conversionNotes:['La receta original rinde 4 porciones de 2 tacos; pescado 4 oz (113.4 g) por porción.','Tazas de col, yogur, cilantro y cucharadas de mayonesa/aceite convertidas a pesos estimados.','El limón para servir se estima como 1/4 pieza por porción; ajustar al gusto.','El agua para diluir la salsa no se agrega al súper.','Las dos apariciones de Tajín y de jugo de limón se consolidan en la lista de compras.'],
+  preparation:['Sazona el pescado con comino y condimento de chile y limón.','Mezcla yogur, mayonesa ligera y limón para obtener una salsa fluida.','Combina coles, zanahoria, cilantro, aceite y limón como ensalada fresca.','Cocina el pescado en sartén hasta que alcance una temperatura interna segura de 63 °C; desmenúzalo.','Calienta las tortillas y arma dos tacos con pescado, ensalada y salsa.']
+ },
+ 'web-047':{
+  sourceUrl:'https://www.skinnytaste.com/spanish-tortilla-with-pimenton-aioli/',yieldServings:6,quantityStatus:'source_converted',
+  ingredients:[
+   {name:'Papa Yukon Gold',quantity:113.4,unit:'g'},
+   {name:'Sal',quantity:1.5,unit:'g'},
+   {name:'Caldo de pollo o verduras bajo en sodio',quantity:17.5,unit:'ml'},
+   {name:'Cebolla amarilla',quantity:12.5,unit:'g'},
+   {name:'Huevo',quantity:1,unit:'pza'},
+   {name:'Pimienta negra molida',quantity:.08,unit:'g'},
+   {name:'Aceite de oliva extra virgen',quantity:4.5,unit:'g'},
+   {name:'Ajo',quantity:.5,unit:'g'},
+   {name:'Mayonesa',quantity:7.5,unit:'g'},
+   {name:'Jugo de limón',quantity:1.67,unit:'ml'},
+   {name:'Pimentón ahumado',quantity:.1,unit:'g'}
+  ],
+  conversionNotes:['1.5 lb de papa para 6 porciones equivalen a 113.4 g por porción.','Caldo de 6–8 cucharadas para la receta completa: se estiman 17.5 ml por porción; puede variar.','Media cebolla grande equivale aproximadamente a 75 g totales; ajo pequeño, 3 g.','Aceite 2 cucharadas en total, aproximadamente 27 g para 6 porciones; mayonesa 3 cucharadas, unos 45 g.','Los macros publicados incluyen 1/6 de tortilla y su alioli; no incluyen pan o ensalada de acompañamiento.'],
+  preparation:['Hierve las papas cortadas en láminas hasta que estén suaves sin deshacerse.','Ablanda la cebolla en una sartén con un poco de caldo, dejando que el líquido se reduzca.','Bate los huevos e integra las papas y la cebolla cocidas.','Cocina la mezcla en una sartén antiadherente con aceite, voltéala con cuidado y termina la cocción.','Mezcla mayonesa, ajo, limón y pimentón para una salsa de acompañamiento; divide la tortilla en seis porciones.']
+ },
 };
