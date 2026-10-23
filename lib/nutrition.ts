@@ -12,7 +12,7 @@ export function analyzeMeals(recipes:CatalogRecipe[],target:MacroTarget):MacroRo
  {key:'carbs',label:'Carbohidratos',unit:'g'},
  {key:'fat',label:'Grasas',unit:'g'}];
  return config.map(({key,label,unit})=>{
-  const known=recipes.length>0&&recipes.every(r=>typeof r[key]==='number'&&Number.isFinite(r[key]));
+  const known=recipes.length>0&&recipes.every(r=>r.nutritionMethod!=='unavailable'&&typeof r[key]==='number'&&Number.isFinite(r[key]));
   const actual=known?round(recipes.reduce((sum,r)=>sum+(r[key] as number),0)):null;
   const desired=target[key];
   const difference=actual===null?null:round(actual-desired);
