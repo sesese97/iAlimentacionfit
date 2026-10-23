@@ -14,21 +14,23 @@ Actualizado: 22 de octubre de 2026 · America/Mexico_City.
 6. [Lote 003 — informe y pendientes](docs/recipe-research/batch-003-2026-10-22.md).
 7. [Lote 004 — JSON](data/recipe-research/batch-004-2026-10-22.json): 50 referencias nuevas, IDs `web-155`–`web-204`, de 20 fuentes.
 8. [Lote 004 — informe editorial y pendientes](docs/recipe-research/batch-004-2026-10-22.md).
+9. [Lote 005 — JSON](data/recipe-research/batch-005-2026-10-22.json): 50 nuevas referencias, IDs `web-205`–`web-254`, de 19 fuentes.
+10. [Lote 005 — informe y pendientes](docs/recipe-research/batch-005-2026-10-22.md).
 
 ## Distribución editorial
 
-| Grupo editorial | Objetivo | Referencias heredadas | Candidatas heredadas | Lote 002 | Lote 003 | Lote 004 | Nuevas acumuladas |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Mexicana y latinoamericana | 220 | 10 | 3 | 9 | 9 | 9 | 27 |
-| Italiana, mediterránea y española | 210 | 8 | 56 | 8 | 8 | 8 | 24 |
-| Americana y comfort food saludable | 160 | 3 | 40 | 7 | 7 | 7 | 21 |
-| India, china, japonesa y tailandesa | 210 | 12 | 35 | 9 | 9 | 9 | 27 |
-| Mariscos y pescados | 130 | 4 | 22 | 5 | 5 | 5 | 15 |
-| Vegetariana y vegana | 130 | 7 | 22 | 6 | 6 | 6 | 18 |
-| Desayunos, snacks y postres | 140 | 10 | 22 | 6 | 6 | 6 | 18 |
-| **Total** | **1,200** | **54** | **200** | **50** | **50** | **50** | **150** |
+| Grupo editorial | Objetivo | Referencias heredadas | Candidatas heredadas | Lote 002 | Lote 003 | Lote 004 | Lote 005 | Nuevas acumuladas |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Mexicana y latinoamericana | 220 | 10 | 3 | 9 | 9 | 9 | 10 | 37 |
+| Italiana, mediterránea y española | 210 | 8 | 56 | 8 | 8 | 8 | 9 | 33 |
+| Americana y comfort food saludable | 160 | 3 | 40 | 7 | 7 | 7 | 7 | 28 |
+| India, china, japonesa y tailandesa | 210 | 12 | 35 | 9 | 9 | 9 | 9 | 36 |
+| Mariscos y pescados | 130 | 4 | 22 | 5 | 5 | 5 | 5 | 20 |
+| Vegetariana y vegana | 130 | 7 | 22 | 6 | 6 | 6 | 5 | 23 |
+| Desayunos, snacks y postres | 140 | 10 | 22 | 6 | 6 | 6 | 5 | 23 |
+| **Total** | **1,200** | **54** | **200** | **50** | **50** | **50** | **50** | **200** |
 
-Hay 404 registros documentales en estos archivos, con distintos grados de revisión. **No equivalen a 404 recetas finales únicas aprobadas**: el legado contiene posibles duplicados y las candidatas no se han normalizado.
+Hay 454 registros documentales en estos archivos, con distintos grados de revisión. **No equivalen a 454 recetas finales únicas aprobadas**: el legado contiene posibles duplicados y las candidatas no se han normalizado.
 
 ## Estado por lote
 
@@ -37,7 +39,8 @@ Hay 404 registros documentales en estos archivos, con distintos grados de revisi
 | 002 | 50 | 45 | 6 | 16 | 0 |
 | 003 | 50 | 50 | 6 | 26 | 0 |
 | 004 | 50 | 48 | 8 (alertas prioritarias) | 21 | 0 |
-| **Acumulado investigado** | **150** | **143** | **20** | **63** | **0** |
+| 005 | 50 | 50 | 13 (alertas prioritarias) | 16 | 0 |
+| **Acumulado investigado** | **200** | **193** | **33** | **79** | **0** |
 
 ### Pendientes prioritarios del lote 003
 
@@ -52,6 +55,13 @@ Hay 404 registros documentales en estos archivos, con distintos grados de revisi
 - Alcance de la tabla/porción y posibles discrepancias: `web-169`, `web-175`, `web-180`, `web-184`, `web-186`, `web-194`, `web-204`.
 - Faltan metadatos de preparación o rendimiento para 34 referencias; **las 50** requieren pruebas culinarias, normalización nutricional con insumos mexicanos y derechos de uso antes de aprobarse.
 
+### Pendientes prioritarios del lote 005
+
+- **50 referencias** con los cuatro macros publicados, pero sin normalización o pruebas con productos del mercado mexicano.
+- Alcance de porción, tiempo o metadatos nutricionales prioritarios: `web-205`, `web-206`, `web-207`, `web-210`, `web-212`, `web-219`, `web-226`, `web-232`, `web-240`, `web-244`, `web-250`, `web-252`, `web-254`.
+- En 34 fichas hay al menos un tiempo de preparación o dato de rendimiento por confirmar.
+- **0 aprobadas** para integración; las 50 necesitan cantidades en gramos, cálculo local, pruebas gastronómicas, y revisión de derechos de uso.
+
 ## Reglas para ampliar el banco
 
 - Consultar este índice, el legado y todos los archivos de `data/recipe-research/`.
@@ -61,7 +71,7 @@ Hay 404 registros documentales en estos archivos, con distintos grados de revisi
 - Mantener desconocidos en `null` y distinguir valores publicados de cálculos propios.
 - Mantener `status` y `readyForPlanner` separados. Estados: candidata, revisada, aprobada y descartada.
 - Añadir archivos nuevos sin regenerar ni sobrescribir lotes anteriores.
-- Próximo ID disponible al cerrar este lote: `web-205`; verificar antes si otro lote ya lo usa.
+- Próximo ID disponible al cerrar este lote: `web-255`; verificar antes si otro lote ya lo usa.
 
 ## Mercado mexicano
 
