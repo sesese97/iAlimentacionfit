@@ -18,21 +18,23 @@ Actualizado: 22 de octubre de 2026 · America/Mexico_City.
 10. [Lote 005 — informe y pendientes](docs/recipe-research/batch-005-2026-10-22.md).
 11. [Lote 006 — JSON](data/recipe-research/batch-006-2026-10-22.json): 50 nuevas referencias, IDs `web-255`–`web-304`, 10 fuentes.
 12. [Lote 006 — informe y pendientes](docs/recipe-research/batch-006-2026-10-22.md).
+13. [Lote 007 — JSON y clasificación de comidas/preparación](data/recipe-research/batch-007-2026-10-26.json): 50 referencias, `web-305`–`web-354`, 13 fuentes.
+14. [Lote 007 — auditoría de ingredientes, nutrición y cocinado anticipado](docs/recipe-research/batch-007-2026-10-26.md).
 
 ## Distribución editorial
 
-| Grupo editorial | Objetivo | Referencias heredadas | Candidatas heredadas | Lote 002 | Lote 003 | Lote 004 | Lote 005 | Lote 006 | Nuevas acumuladas |
+| Grupo editorial | Objetivo | Referencias heredadas | Candidatas heredadas | Lote 002 | Lote 003 | Lote 004 | Lote 005 | Lote 006 | Lote 007 | Nuevas acumuladas |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Mexicana y latinoamericana | 220 | 10 | 3 | 9 | 9 | 9 | 10 | 9 | 46 |
-| Italiana, mediterránea y española | 210 | 8 | 56 | 8 | 8 | 8 | 9 | 8 | 41 |
-| Americana y comfort food saludable | 160 | 3 | 40 | 7 | 7 | 7 | 7 | 7 | 35 |
-| India, china, japonesa y tailandesa | 210 | 12 | 35 | 9 | 9 | 9 | 9 | 9 | 45 |
-| Mariscos y pescados | 130 | 4 | 22 | 5 | 5 | 5 | 5 | 5 | 25 |
-| Vegetariana y vegana | 130 | 7 | 22 | 6 | 6 | 6 | 5 | 6 | 29 |
-| Desayunos, snacks y postres | 140 | 10 | 22 | 6 | 6 | 6 | 5 | 6 | 29 |
-| **Total** | **1,200** | **54** | **200** | **50** | **50** | **50** | **50** | **50** | **250** |
+| Mexicana y latinoamericana | 220 | 10 | 3 | 9 | 9 | 9 | 10 | 9 | 9 | 55 |
+| Italiana, mediterránea y española | 210 | 8 | 56 | 8 | 8 | 8 | 9 | 8 | 8 | 49 |
+| Americana y comfort food saludable | 160 | 3 | 40 | 7 | 7 | 7 | 7 | 7 | 7 | 42 |
+| India, china, japonesa y tailandesa | 210 | 12 | 35 | 9 | 9 | 9 | 9 | 9 | 9 | 54 |
+| Mariscos y pescados | 130 | 4 | 22 | 5 | 5 | 5 | 5 | 5 | 5 | 30 |
+| Vegetariana y vegana | 130 | 7 | 22 | 6 | 6 | 6 | 5 | 6 | 6 | 35 |
+| Desayunos, snacks y postres | 140 | 10 | 22 | 6 | 6 | 6 | 5 | 6 | 6 | 35 |
+| **Total** | **1,200** | **54** | **200** | **50** | **50** | **50** | **50** | **50** | **50** | **300** |
 
-Hay 504 registros documentales en estos archivos, con distintos grados de revisión. **No equivalen a 504 recetas finales únicas aprobadas**: el legado contiene posibles duplicados y las candidatas no se han normalizado.
+Hay 554 registros documentales en estos archivos, con distintos grados de revisión. **No equivalen a 554 recetas finales únicas aprobadas**: el legado contiene posibles duplicados y las candidatas no se han normalizado.
 
 ## Estado por lote
 
@@ -43,7 +45,8 @@ Hay 504 registros documentales en estos archivos, con distintos grados de revisi
 | 004 | 50 | 48 | 8 (alertas prioritarias) | 21 | 0 |
 | 005 | 50 | 50 | 13 (alertas prioritarias) | 16 | 0 |
 | 006 | 50 | 50 | 15 (alertas prioritarias) | 16 | 0 |
-| **Acumulado investigado** | **250** | **243** | **48** | **95** | **0** |
+| 007 | 50 | 50 | 2 (candidatas con alcance nutricional dudoso) | 20 | 0 |
+| **Acumulado investigado** | **300** | **293** | **50** | **115** | **0** |
 
 ### Pendientes prioritarios del lote 003
 
@@ -73,6 +76,15 @@ Hay 504 registros documentales en estos archivos, con distintos grados de revisi
 - 25/50 proceden de Skinnytaste: diversificar las fuentes en lotes siguientes.
 - Ninguna referencia se aprobó para el planificador. La integración requiere versiones originales, pesos/merma, macros recalculados y derechos de uso.
 
+### Pendientes prioritarios del lote 007
+
+- `web-310` arepa hawaiana y `web-326` pot pie: cuatro valores publicados, pero posible inconsistencia entre ingredientes y macros. Estado `candidata`, no promover a `revisada` sin auditoría de porción.
+- Las demás 48 fichas están `revisada` solo como referencia editorial; **ninguna** aprobada para planificador o supermercado.
+- Nueva clasificación multietiqueta `mealSlots`: `desayuno`, `colación`, `comida` y `cena`.
+- Nueva evaluación `batchPrep` para 2 o 3 días, con separación de componentes, arroz preparado fresco/congelado, recetas congelables y perecederos que se montan al servir. Las recomendaciones de almacenamiento no equivalen a validación de inocuidad de la receta mexicana.
+- Las 50 referencias tienen ingredientes principales identificados pero cantidades, pesos crudo/cocido, SKU y equivalencias **pendientes** (`null`); no enviarlos al supermercado ni interpretar desconocido como cero.
+- Verificar en prioridad quesos con cuajo, proteína vegetal en polvo, tofu/soya, frutos secos, trigo, pescado y mariscos; no certificar ausencia de alérgenos ni de gluten.
+
 ## Reglas para ampliar el banco
 
 - Consultar este índice, el legado y todos los archivos de `data/recipe-research/`.
@@ -82,7 +94,7 @@ Hay 504 registros documentales en estos archivos, con distintos grados de revisi
 - Mantener desconocidos en `null` y distinguir valores publicados de cálculos propios.
 - Mantener `status` y `readyForPlanner` separados. Estados: candidata, revisada, aprobada y descartada.
 - Añadir archivos nuevos sin regenerar ni sobrescribir lotes anteriores.
-- Próximo ID disponible al cerrar este lote: `web-305`; verificar antes si otro lote ya lo usa.
+- Próximo ID disponible al cerrar este lote: `web-355`; verificar antes si otro lote ya lo usa.
 
 ## Mercado mexicano
 
