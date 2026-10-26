@@ -98,7 +98,17 @@
       "FRESH": 1,
       "EGGS": 2,
       "COLD": 1
-    }
+    },
+    "statusCounts": {
+      "candidata": 2,
+      "revisada": 48,
+      "aprobada": 0,
+      "descartada": 0
+    },
+    "highPriorityNutritionScopeIds": [
+      "web-310",
+      "web-326"
+    ]
   },
   "recipes": [
     {
@@ -175,7 +185,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 447,
@@ -229,7 +252,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -360,7 +390,18 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 1240,
@@ -418,7 +459,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -542,7 +590,18 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 1211,
@@ -600,7 +659,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -714,7 +780,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 340,
@@ -768,7 +847,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -864,7 +950,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 181,
@@ -918,7 +1017,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -1020,7 +1126,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 497,
@@ -1034,7 +1153,9 @@
         "independentlyRecalculated": false,
         "mexicanAdaptationMacrosAvailable": false,
         "servingScope": "Ración original; confirmar gramaje y componentes",
-        "reviewNote": "Alerta nutricional, solo 12 g de carbohidratos para arepa; comprobar inclusión de base"
+        "reviewNote": "Alerta nutricional, solo 12 g de carbohidratos para arepa; comprobar inclusión de base",
+        "scopeNeedsReview": true,
+        "usePublishedMacrosForPlanner": false
       },
       "serving": {
         "recipeYieldServings": 2,
@@ -1074,7 +1195,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -1094,7 +1222,7 @@
         "scale": 5,
         "notTasteTested": true
       },
-      "status": "revisada",
+      "status": "candidata",
       "readyForPlanner": false,
       "readyForGrocery": false,
       "pending": {
@@ -1103,7 +1231,7 @@
         "instructions": "Desarrollar versión propia probada o licenciar.",
         "usageRights": "No reproducir instrucciones ni fotografía sin autorización.",
         "shelfLife": "Validar almacenamiento, cadena fría y recalentamiento para versión concreta.",
-        "specific": "Alerta nutricional, solo 12 g de carbohidratos para arepa; comprobar inclusión de base"
+        "specific": "La composición publicada y la cifra proteica o de carbohidratos no parecen congruentes. Comprobar receta original, alcance de la porción y recalcular antes de promover a revisada."
       },
       "rights": {
         "permissionVerified": false,
@@ -1186,7 +1314,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 638,
@@ -1240,7 +1382,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -1335,7 +1484,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 429,
@@ -1384,7 +1546,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -1486,7 +1655,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 241,
@@ -1535,7 +1717,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -1647,7 +1836,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 379.7,
@@ -1701,7 +1903,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -1814,7 +2023,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 587,
@@ -1868,7 +2091,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -1981,7 +2211,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 560,
@@ -2035,7 +2279,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -2148,7 +2399,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 442,
@@ -2206,7 +2471,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -2319,7 +2591,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 435.7,
@@ -2373,7 +2659,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -2477,7 +2770,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 193,
@@ -2526,7 +2832,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -2638,7 +2951,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 520.8,
@@ -2692,7 +3019,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -2805,7 +3139,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 407,
@@ -2859,7 +3207,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -2972,7 +3327,18 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 351,
@@ -3021,7 +3387,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -3134,7 +3507,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 477,
@@ -3188,7 +3575,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -3301,7 +3695,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "eggs",
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 341,
@@ -3350,7 +3758,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -3463,7 +3878,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 420,
@@ -3517,7 +3945,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -3630,7 +4065,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 380,
@@ -3644,7 +4092,9 @@
         "independentlyRecalculated": false,
         "mexicanAdaptationMacrosAvailable": false,
         "servingScope": "Ración original; confirmar gramaje y componentes",
-        "reviewNote": "Tabla publica solo 8 g proteína, posible discrepancia: revisión prioritaria"
+        "reviewNote": "Tabla publica solo 8 g proteína, posible discrepancia: revisión prioritaria",
+        "scopeNeedsReview": true,
+        "usePublishedMacrosForPlanner": false
       },
       "serving": {
         "recipeYieldServings": 4,
@@ -3679,7 +4129,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -3700,7 +4157,7 @@
         "scale": 5,
         "notTasteTested": true
       },
-      "status": "revisada",
+      "status": "candidata",
       "readyForPlanner": false,
       "readyForGrocery": false,
       "pending": {
@@ -3709,7 +4166,7 @@
         "instructions": "Desarrollar versión propia probada o licenciar.",
         "usageRights": "No reproducir instrucciones ni fotografía sin autorización.",
         "shelfLife": "Validar almacenamiento, cadena fría y recalentamiento para versión concreta.",
-        "specific": "Tabla publica solo 8 g proteína, posible discrepancia: revisión prioritaria"
+        "specific": "La composición publicada y la cifra proteica o de carbohidratos no parecen congruentes. Comprobar receta original, alcance de la porción y recalcular antes de promover a revisada."
       },
       "rights": {
         "permissionVerified": false,
@@ -3792,7 +4249,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 384,
@@ -3846,7 +4316,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -3959,7 +4436,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 385,
@@ -4013,7 +4503,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -4126,7 +4623,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "soy"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 300,
@@ -4180,7 +4690,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -4293,7 +4810,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 366,
@@ -4347,7 +4877,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -4451,7 +4988,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 283,
@@ -4505,7 +5055,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -4608,7 +5165,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 521,
@@ -4662,7 +5232,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -4774,7 +5351,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat",
+          "soy"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 517,
@@ -4828,7 +5419,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -4932,7 +5530,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 325,
@@ -4981,7 +5592,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -5093,7 +5711,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "soy"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 721,
@@ -5147,7 +5778,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -5251,7 +5889,22 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "soy",
+          "peanuts"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 454,
@@ -5305,7 +5958,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -5408,7 +6068,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 280,
@@ -5457,7 +6130,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -5569,7 +6249,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "fish"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 314,
@@ -5623,7 +6317,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -5709,7 +6410,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "fish"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 108,
@@ -5758,7 +6472,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -5868,7 +6589,22 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "eggs",
+          "fish",
+          "soy"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 453,
@@ -5917,7 +6653,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -6030,7 +6773,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat",
+          "shellfish"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 339.9,
@@ -6079,7 +6836,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -6183,7 +6947,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat",
+          "shellfish"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 213,
@@ -6232,7 +7010,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -6353,7 +7138,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "soy",
+          "sesame"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 428,
@@ -6407,7 +7206,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -6521,7 +7327,18 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 445,
@@ -6583,7 +7400,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -6696,7 +7520,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "treeNuts"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 377,
@@ -6750,7 +7587,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -6854,7 +7698,18 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 263,
@@ -6908,7 +7763,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -7020,7 +7882,18 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 362,
@@ -7074,7 +7947,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -7188,7 +8068,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "wheat"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 225,
@@ -7237,7 +8130,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -7341,7 +8241,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "eggs"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 167,
@@ -7390,7 +8304,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -7493,7 +8414,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": true,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 338,
@@ -7547,7 +8481,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -7650,7 +8591,22 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "eggs",
+          "soy"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 280,
@@ -7699,7 +8655,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -7802,7 +8765,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": false,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "eggs"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 249,
@@ -7851,7 +8828,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -7963,7 +8947,21 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": true,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk",
+          "treeNuts"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 138,
@@ -8012,7 +9010,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
@@ -8125,7 +9130,20 @@
         "duplicateIngredientKeysResolved": false,
         "shoppingListReady": false,
         "proteinPowderBrandRequiresRecalculation": true,
-        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas."
+        "criticalPending": "Definir cantidades, unidades, marcas, equivalencias, merma y cocido/crudo; no enviar a supermercado ni agregar cantidades desconocidas.",
+        "possibleAllergensFromListedIngredients": [
+          "milk"
+        ],
+        "possibleAllergensAreIncomplete": true,
+        "crossContaminationUnchecked": true,
+        "groceryCanonicalizationRules": {
+          "sameFoodDifferentStatesMustNotMerge": true,
+          "rawCookedWeightsNotInterchangeable": true,
+          "drainedVsUndrainedCannedFoodNotInterchangeable": true,
+          "wholeVsFilletedBoneInYieldMustBeMeasured": true,
+          "brandDependentItemsRequireRecalculation": true,
+          "neverAssumeUnknownQuantityIsZero": true
+        }
       },
       "nutritionPerServing": {
         "caloriesKcal": 77,
@@ -8179,7 +9197,14 @@
         "safetySources": [
           "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
           "https://www.food.gov.uk/print/pdf/node/4286"
-        ]
+        ],
+        "foodSafetyPolicy": {
+          "rapidCooling": "Recipientes poco profundos y refrigerar sin exceder 2 horas; 1 hora por encima de 32 C.",
+          "refrigerator": "4 C o menos",
+          "reheating": "74 C para sobras calientes; termómetro alimentario",
+          "rice": "Enfriar en ~1 hora y usar en refrigeración dentro de 24 horas; congelar porciones desde el día de cocción para un plan 2-3 días",
+          "notSafetyCertified": true
+        }
       },
       "mexicoAdaptation": {
         "feasibility": "evaluación preliminar",
