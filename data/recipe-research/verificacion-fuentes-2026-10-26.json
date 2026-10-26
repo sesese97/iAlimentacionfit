@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "scope": "Verificación contra las fichas originales del autor; no certificación analítica ni cálculo por marca mexicana",
+  "checked": [
+    {
+      "id": "web-001",
+      "name": "Pizza de base de pollo",
+      "source": "https://www.skinnytaste.com/chicken-crust-pizza/",
+      "sourceServings": 4,
+      "sourceServingSize": "1 pizza",
+      "publishedMacrosPerServing": {
+        "kcal": 287,
+        "proteinG": 34,
+        "carbsG": 7,
+        "fatG": 14.5
+      },
+      "macroMatch": true,
+      "sourceIngredientAmountsVerified": true,
+      "normalizedIngredientsFile": "lib/normalized-references.ts",
+      "conversionCaveat": "Las tazas convertidas a gramos son aproximaciones; aceite en aerosol de charola no cuantificado; no recalculado para marcas mexicanas",
+      "status": "macros_y_rendimiento_confirmados_cantidades_convertidas"
+    },
+    {
+      "id": "web-002",
+      "name": "Pizza de desayuno con huevo",
+      "source": "https://www.skinnytaste.com/breakfast-pizza/",
+      "sourceServings": 4,
+      "sourceServingSize": "1 pizza",
+      "publishedMacrosPerServing": {
+        "kcal": 271,
+        "proteinG": 20.5,
+        "carbsG": 27,
+        "fatG": 9
+      },
+      "macroMatch": true,
+      "sourceIngredientAmountsVerified": true,
+      "normalizedIngredientsFile": "lib/normalized-references.ts",
+      "conversionCaveat": "Puñado de espinaca sin peso en fuente, convertido provisionalmente a 30 g para toda la receta; volumen de yogur y peso de tocino variables; compra precisa no certificada",
+      "status": "macros_y_rendimiento_confirmados_cantidades_convertidas"
+    }
+  ],
+  "rules": [
+    "No presentar macros publicados como recalculados por ingredientes mexicanos.",
+    "Si la fuente no especifica peso de un ingrediente, documentar estimación y mantener pendiente de precisión.",
+    "Conservar porciones originales, no mezclar peso de receta completa con porción.",
+    "No atribuir verificación a otras recetas que no se revisaron individualmente."
+  ]
+}
