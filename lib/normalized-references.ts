@@ -27,6 +27,35 @@ export const normalizedReferences:Record<string,NormalizedReference>={
   conversionNotes:['1 lb de pollo equivale a aproximadamente 454 g para 4 porciones.','Tazas de queso, salsa y vegetales convertidas a gramos aproximados; revisar marca y presentación.'],
   preparation:['Precalienta el horno a 220 °C y prepara una charola con papel para hornear.','Mezcla pollo molido, huevo, parmesano y condimentos; forma una base delgada por porción.','Hornea la base hasta que el pollo esté completamente cocido; añade salsa, queso y verduras.','Regresa al horno hasta fundir el queso y terminar las verduras.']
  },
+ 'web-002':{
+  sourceUrl:'https://www.skinnytaste.com/breakfast-pizza/',yieldServings:4,quantityStatus:'source_converted',
+  ingredients:[
+   {name:'Harina de trigo',quantity:35.44,unit:'g'},
+   {name:'Polvo para hornear',quantity:1.5,unit:'g'},
+   {name:'Sal',quantity:.75,unit:'g'},
+   {name:'Yogur griego natural sin grasa',quantity:61.25,unit:'g'},
+   {name:'Espinaca baby',quantity:7.5,unit:'g'},
+   {name:'Queso mozzarella rallado',quantity:14.18,unit:'g'},
+   {name:'Jitomate cherry',quantity:2,unit:'pza'},
+   {name:'Huevo',quantity:1,unit:'pza'},
+   {name:'Tocino cocido',quantity:.5,unit:'tira'}
+  ],
+  conversionNotes:[
+   'La fuente original indica 4 pizzas, una por porción. Los macros publicados corresponden a una pizza completa.',
+   'Harina: 5 oz (141.75 g) por receta, 35.44 g por pizza; yogur: 1 taza estimada en 245 g, 61.25 g por pizza.',
+   'Mozzarella: 2 oz (56.7 g) por receta, 14.18 g por pizza; jitomate: 8 unidades para 4 pizzas.',
+   'Espinaca: la fuente dice un puñado sin peso; se usa una estimación provisional de 30 g por receta. Verificar antes de declarar compra exacta.',
+   'Tocino: 2 tiras cocidas por receta, media tira por pizza. Peso y marca pendientes; la lista de compra conserva la unidad original.',
+   'Polvo para hornear y sal convertidos de cucharaditas con densidades aproximadas. No sustituir yogur sin grasa ni queso sin recalcular.'
+  ],
+  preparation:[
+   'Precalienta el horno a 230 °C y prepara una charola antiadherente.',
+   'Mezcla harina, polvo para hornear y sal; integra el yogur griego hasta obtener una masa y amásala brevemente.',
+   'Divide en cuatro partes y extiende cada una en un óvalo delgado de aproximadamente 18 a 20 cm.',
+   'Distribuye espinaca, mozzarella y jitomates dejando espacio en el centro para un huevo por pizza; reparte el tocino cocido.',
+   'Hornea aproximadamente 10 a 12 minutos, hasta que la base se dore y el huevo alcance la cocción deseada; para personas vulnerables, cocina el huevo completamente.'
+  ]
+ },
  'web-005':{
   sourceUrl:'https://www.skinnytaste.com/shrimp-quesadilla/',yieldServings:4,quantityStatus:'source_converted',
   ingredients:[
